@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: acasio-store
+    env: python
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
+      - key: SECRET_KEY
+        generateValue: true
+      - key: SMTP_USERNAME
+        value: acasiostore@gmail.com
+      - key: SMTP_PASSWORD
+        sync: false  # You'll set this in Render dashboard
+      - key: ADMIN_EMAIL
+        value: acasiostore@gmail.com
+    healthCheckPath: /
+    autoDeploy: true
+    plan: free
