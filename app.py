@@ -12,10 +12,9 @@ app.secret_key = os.getenv('SECRET_KEY', 'dev-secret-key-change-in-production')
 # SMTP Configuration - Using environment variables for Render
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SMTP_USERNAME = os.getenv('SMTP_USERNAME', 'acasiostore@gmail.com')
-SMTP_PASSWORD = os.getenv('SMTP_PASSWORD', 'vszg rxgp ujnl owgw')
-ADMIN_EMAIL = os.getenv('ADMIN_EMAIL', 'acasiostore@gmail.com')
-
+SMTP_USERNAME = os.getenv('SMTP_USERNAME', '')  # Empty default
+SMTP_PASSWORD = os.getenv('SMTP_PASSWORD', '')  # EMPTY DEFAULT - NO PASSWORD HERE!
+ADMIN_EMAIL = os.getenv('ADMIN_EMAIL', '')      # Empty default
 # Load data files
 with open("data/categories.json") as f:
     categories = json.load(f)
