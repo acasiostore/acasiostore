@@ -1,0 +1,22 @@
+# Move your current app.py to api/index.py
+mkdir api
+mv app.py api/index.py
+
+# Create vercel.json
+echo '{
+  "builds": [
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/index.py"
+    }
+  ]
+}' > vercel.json
+
+# Deploy
+vercel --prod
