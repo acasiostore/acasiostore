@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% block title %}{{ category.name }} - AKWatches.pk{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/category.css') }}">
+<style>
+    .original-price {
+        text-decoration: line-through;
+        color: #999;
+        margin-right: 5px;
+    }
+    .discounted-price {
+        color: #e53935;
+        font-weight: bold;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<section class="section category-hero">
+    <div class="container">
+        <h1>{{ category.name }}</h1>
+        <p>{{ category.description }}</p>
+
+        <div class="category-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+           <button class="filter-btn" data-filter="best">Best Sellers</button>
+            <button class="filter-btn" data-filter="sale">On Sale</button>
+        </div>
+    </div>
+</section>
+
+<section class="section category-products">
+    <div class="container">
+        {% if products %}
+        <div class="product-grid">
+            {% for product in products %}
+            <article class="product-card" data-sale="{{ 'true' if product.sale and product.sale.on_sale else 'false' }}">
+                <a href="{{ url_for('product_details', slug=product.slug) }}">
+                    <div class="product-image">
+                        <img src="{{ url_for('static', filename=product.images[0]) }}" alt="{{ product.name }}">
+                        {% if product.sale and product.sale.on_sale %}
+                        <span class="sale-badge">SALE</span>
+                        {% endif %}
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">{{ product.name }}</h3>
+                        <p class="product-price">
+                            {% if product.sale and product.sale.on_sale %}
+                                <span class="original-price">{{ product.currency }}{{ "{:,.0f}".format(product.price) }}</span>
+                                <span class="discounted-price">{{ product.currency }}{{ "{:,.0f}".format(product.price * (1 - product.sale.discount_percent / 100)) }}</span>
+                            {% else %}
+                                {{ product.currency }}{{ "{:,.0f}".format(product.price) }}
+                            {% endif %}
+                        </p>
+                        <div class="product-buttons">
+                            <button class="btn-cart">Add To Cart</button>
+                            <button class="btn-details">View Details</button>
+                        </div>
+                    </div>
+                </a>
+            </article>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p>No products found in this category yet.</p>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const filterButtons = document.querySelectorAll(".filter-btn");
+    const products = Array.from(document.querySelectorAll(".product-card"));
+
+    function getRandomProducts(array, min=7, max=10) {
+        const count = Math.min(array.length, Math.floor(Math.random() * (max - min + 1)) + min);
+        const shuffled = array.slice().sort(() => 0.5 - Math.random());
+        return shuffled.slice(0, count);
+    }
+
+    filterButtons.forEach(btn => {
+        btn.addEventListener("click", function() {
+            // Remove 'active' class from all buttons
+            filterButtons.forEach(b => b.classList.remove("active"));
+            this.classList.add("active");
+
+            const filter = this.dataset.filter;
+
+            products.forEach(card => card.style.display = "none"); // Hide all by default
+
+            if(filter === "all") {
+                products.forEach(card => card.style.display = "block");
+            } else if(filter === "sale") {
+                products.forEach(card => {
+                    if(card.dataset.sale === "true") card.style.display = "block";
+                });
+            } else if(filter === "best") {
+                const bestProducts = getRandomProducts(products, 7, 10);
+                bestProducts.forEach(card => card.style.display = "block");
+            } else {
+                // For new arrivals, show all (or add logic later)
+                products.forEach(card => card.style.display = "block");
+            }
+        });
+    });
+});
+</script>
+{% endblock %}

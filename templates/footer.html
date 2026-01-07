@@ -1,0 +1,62 @@
+<footer class="site-footer">
+    <div class="footer-main container">
+        <div class="footer-column footer-about">
+            <div class="footer-logo">
+                <span class="logo-main">A CASIO STORE</span><span class="logo-sub"></span>
+            </div>
+            <p>
+                A CASIO STORE offers a complete range of authentic watches for men & women.
+                With decades of trusted service, we bring premium timepieces to customers
+                all across Pakistan with safe and convenient online ordering.
+            </p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Collections</h4>
+            <ul>
+                 <li><a href="{{ url_for('category_page', slug='classic-watches') }}">Classic</a></li>
+                 <li><a href="{{ url_for('category_page', slug='analog-watches') }}">Analog</a></li>
+                 <li><a href="{{ url_for('category_page', slug='g-shock') }}">G-Shock</a></li>
+                 <li><a href="{{ url_for('sale_page') }}">Sale</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column footer-contact">
+            <h4>Contact</h4>
+            <p>
+                Shop No F21B, First Floor Amma Tower,<br>
+                M.A.Jinnah Rd, Karachi, Pakistan
+            </p>
+            <p>
+                <i class="fas fa-phone"></i> +92 346 2738961
+            </p>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@acasioshop?_r=1&_t=ZS-92rgvvPR78i"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.youtube.com/channel/UCN5q6Y2cbmBduX_vySV1d9w"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <!-- Warranty Column with Logo -->
+        <div class="footer-column footer-warranty">
+            <div class="warranty-logo">
+                <img src="{{ url_for('static', filename='images/logo.png') }}" alt="A Casio Store Logo">
+            </div>
+            <h4>Warranty Policy</h4>
+            <p>All Casio watches come with a <strong>12-month limited warranty</strong> covering manufacturing defects under normal use.</p>
+            <p><a href="{{ url_for('warranty') }}" class="footer-link">Read Full Warranty Details →</a></p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+            <p>
+                A CASIO STORE &copy; 2024. All Rights Reserved. Shipping all over Pakistan via COD & bank transfer.
+            </p>
+            <p class="dev-credit">
+                Designed &amp; Developed for <strong>A CASIO STORE</strong>
+            </p>
+        </div>
+    </div>
+</footer>

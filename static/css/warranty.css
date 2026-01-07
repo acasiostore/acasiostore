@@ -1,0 +1,52 @@
+.warranty-section {
+    padding: 60px 0;
+    background: #f5f6f8;
+}
+
+.warranty-container {
+    max-width: 900px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.warranty-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.warranty-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.warranty-box {
+    background: #f9fafb;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.warranty-contact {
+    margin: 30px 0;
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.warranty-contact i {
+    margin-right: 8px;
+    color: #25d366;
+}
+
+.warranty-disclaimer {
+    margin-top: 40px;
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}

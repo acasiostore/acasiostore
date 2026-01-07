@@ -1,0 +1,20 @@
+[
+    {
+        "slug": "classic-watches",
+        "name": "Classic Watches",
+        "image": "images/categories/classic.jpg",
+        "description": "Timeless classic designs for everyday wear."
+    },
+    {
+        "slug": "analog-watches",
+        "name": "Analog Watches",
+        "image": "images/categories/analog.jpg",
+        "description": "Simple and elegant analog watches."
+    },
+    {
+        "slug": "g-shock",
+        "name": "G-Shock Watches",
+        "image": "images/categories/shock.jpg",
+        "description": "Durable and rugged G-Shock lineup."
+    }
+]

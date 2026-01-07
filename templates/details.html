@@ -1,0 +1,207 @@
+{% extends "base.html" %}
+{% block title %}{{ product.name }} - AKWatches.pk{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/details.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="section product-details-section">
+    <div class="container product-details-grid">
+        <!-- LEFT: IMAGE GALLERY -->
+        <div class="product-gallery">
+            <div class="gallery-main">
+    <img src="{{ url_for('static', filename=product.images[0]) }}"
+         alt="{{ product.name }}" id="mainProductImage">
+
+    {% if product.sale.on_sale %}
+    <span class="sale-tag">-{{ product.sale.discount_percent }}%</span>
+    {% endif %}
+</div>
+
+            <div class="gallery-thumbs">
+                {% for img in product.images %}
+                <button class="thumb" data-img="{{ url_for('static', filename=img) }}">
+                    <img src="{{ url_for('static', filename=img) }}" alt="{{ product.name }} thumbnail">
+                </button>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- RIGHT: INFO -->
+        <div class="product-info">
+            <h1>{{ product.name }}</h1>
+            {% if product.sold_recent %}
+            <p class="sold-info">
+                <span class="fire-emoji">🔥</span> {{ product.sold_recent }} sold in the last 24 hours
+            </p>
+            {% endif %}
+
+           {% if product.sale.on_sale %}
+    <p class="product-price old-price">
+        {{ product.currency }}{{ "{:,.0f}".format(product.price) }}
+    </p>
+
+    <p class="product-price new-price">
+        {{ product.currency }}{{ "{:,.0f}".format(sale_price) }}
+    </p>
+{% else %}
+    <p class="product-price big">
+        {{ product.currency }}{{ "{:,.0f}".format(product.price) }}
+    </p>
+{% endif %}
+
+            <p class="product-short">
+                {{ product.short_description }}
+            </p>
+
+            <ul class="product-specs-inline">
+                {% for key, value in product.specs.items() %}
+                <li><strong>{{ key.replace('_', ' ').title() }}:</strong> {{ value }}</li>
+                {% endfor %}
+            </ul>
+
+            <div class="product-actions-main">
+    <div class="quantity-selector">
+        <button type="button" class="qty-btn" data-action="minus">−</button>
+        <input type="number" value="1" min="1" id="qtyInput">
+        <button type="button" class="qty-btn" data-action="plus">+</button>
+    </div>
+
+    <button class="btn btn-outline full-width" id="addToCartBtn">
+        Add To Cart
+    </button>
+    <button class="btn btn-primary full-width" id="buyNowBtn">
+        Buy It Now
+    </button>
+
+    <div class="secondary-actions">
+        <button class="icon-circle" aria-label="Wishlist"><i class="far fa-heart"></i></button>
+        <button class="icon-circle" aria-label="Share"><i class="fas fa-share-alt"></i></button>
+    </div>
+</div>
+            <p class="delivery-note">
+                <i class="fas fa-truck"></i>
+                <strong>Estimated delivery:</strong> will be shipped within 3 working days.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- DESCRIPTION TABS -->
+<section class="section product-description-tabs">
+    <div class="container">
+        <div class="tabs-header">
+            <button class="tab-button active" data-tab="description">Description</button>
+            <button class="tab-button" data-tab="shipping">Shipping Information</button>
+            <button class="tab-button" data-tab="reviews">Reviews</button>
+        </div>
+
+        <div class="tab-panels">
+            <div class="tab-panel active" id="tab-description">
+                <h3>Watch Description</h3>
+                {% for paragraph in product.description_paragraphs %}
+                <p>{{ paragraph }}</p>
+                {% endfor %}
+
+                <h4>Specifications</h4>
+                <ul>
+                    {% for key, value in product.specs.items() %}
+                    <li><strong>{{ key.replace('_', ' ').title() }}:</strong> {{ value }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="tab-panel" id="tab-shipping">
+                <h3>Shipping Information</h3>
+                <p>
+                    Orders are dispatched within 1–3 working days. Standard delivery time is
+                    3–7 working days depending on your city and courier service.
+                </p>
+                <ul>
+                    <li>Free shipping on selected orders.</li>
+                    <li>Cash on Delivery available in most cities.</li>
+                    <li>Secure packaging to protect your watch.</li>
+                </ul>
+            </div>
+
+            <div class="tab-panel" id="tab-reviews">
+                <h3>Customer Reviews</h3>
+                <p>No reviews yet. Be the first to review this watch!</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% block extra_js %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const qtyInput = document.getElementById('qtyInput');
+    const addToCartBtn = document.getElementById('addToCartBtn');
+    const buyNowBtn = document.getElementById('buyNowBtn');
+
+    // Quantity buttons
+    document.querySelectorAll('.qty-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            let value = parseInt(qtyInput.value);
+            if (this.dataset.action === 'minus' && value > 1) {
+                qtyInput.value = value - 1;
+            } else if (this.dataset.action === 'plus') {
+                qtyInput.value = value + 1;
+            }
+        });
+    });
+
+    // Add to Cart
+    addToCartBtn.addEventListener('click', function() {
+        const quantity = parseInt(qtyInput.value);
+        addToCart(quantity);
+    });
+
+    // Buy Now
+    buyNowBtn.addEventListener('click', function() {
+        const quantity = parseInt(qtyInput.value);
+        addToCart(quantity, true);
+    });
+
+    function addToCart(quantity, redirectToCart = false) {
+        fetch('/add-to-cart/{{ product.slug }}', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: `quantity=${quantity}`
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                // Update cart count in header
+                updateCartCount(data.cart_count);
+
+                if (redirectToCart) {
+                    window.location.href = '/cart';
+                } else {
+                    // Show success message
+                    showNotification(data.message, 'success');
+                }
+            }
+        })
+        .catch(error => {
+            showNotification('Error adding to cart', 'error');
+        });
+    }
+
+    function updateCartCount(count) {
+        const cartCountElem = document.querySelector('.cart-count');
+        if (cartCountElem) {
+            cartCountElem.textContent = count;
+        }
+    }
+
+    function showNotification(message, type) {
+        // You can implement a toast notification here
+        alert(message);
+    }
+});
+</script>
+{% endblock %}
+{% endblock %}

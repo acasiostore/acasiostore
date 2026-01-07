@@ -1,0 +1,2120 @@
+[
+   {
+  "slug": "a159w-n1df",
+  "name": "Casio A159W-N1DF",
+  "price": 6159,
+  "currency": "Rs.",
+  "category": "analog-watches",
+  "short_description": "Unisex vintage stainless steel digital bracelet watch",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": true,
+    "discount_percent": 28
+  },
+
+  "images": [
+    "images/products/A159W-N1DF_1.jpg",
+    "images/products/A159W-N1DF_2.jpg",
+    "images/products/A159W-N1DF_3.jpg",
+    "images/products/A159W-N1DF_4.jpg",
+    "images/products/A159W-N1DF_5.jpg",
+    "images/products/A159W-N1DF_6.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz (Digital)",
+    "case_material": "Resin / Chrome-plated",
+    "band_material": "Stainless Steel Bracelet",
+    "water_resistance": "Water resistant (splash / daily wear)",
+    "case_size": "36.8 x 33.2 x 8.2 mm",
+    "weight": "44 g",
+    "battery": "CR2016 (approx. 7 years)",
+    "features": "Daily alarm, Hourly time signal, 1/100-second stopwatch, Auto-calendar, LED light, 12/24-hour format"
+  },
+
+  "description_paragraphs": [
+    "The Casio A159W-N1DF is a classic vintage digital watch that blends retro styling with reliable everyday functionality. Its compact rectangular case and clear digital display make it instantly recognizable and timeless.",
+    "The stainless steel bracelet and splash-resistant construction make it suitable for daily wear. With practical features such as an alarm, stopwatch, auto-calendar and long battery life, this watch delivers simplicity, durability and iconic Casio design."
+  ]
+}
+,{
+  "slug": "a168wa-1wdf",
+  "name": "Casio A168WA-1WDF",
+  "price": 12300,
+  "currency": "Rs.",
+  "category": "analog-watches",
+  "short_description": "Unisex vintage digital stainless steel bracelet watch",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/A168WA-1WDF_1.jpg",
+    "images/products/A168WA-1WDF_2.jpg",
+    "images/products/A168WA-1WDF_3.jpg",
+    "images/products/A168WA-1WDF_4.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz (Digital)",
+    "case_material": "Resin / Chrome-plated",
+    "band_material": "Stainless Steel Bracelet",
+    "water_resistance": "Water resistant (splash / daily wear)",
+    "case_size": "36.8 x 33.2 x 8.2 mm",
+    "weight": "44 g",
+    "battery": "CR2016 (approx. 7 years)",
+    "features": "Daily alarm, Hourly time signal, 1/100-second stopwatch, Auto-calendar, LED light, 12/24-hour format"
+  },
+
+  "description_paragraphs": [
+    "The Casio A168WA-1WDF is a classic vintage digital watch that combines iconic retro styling with dependable everyday performance. Its clean dial layout and compact case design make it a timeless Casio favorite.",
+    "The stainless steel bracelet and splash-resistant construction make it suitable for daily wear. Equipped with an alarm, stopwatch, auto-calendar and long battery life, this watch offers practicality with enduring classic appeal."
+  ]
+}
+,
+
+{
+  "slug": "ae-1000w-3avdf",
+  "name": "Casio AE-1000W-3AVDF",
+  "price": 11250,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Multi-band World Time Digital Watch with Resin Band",
+  "badge": "Sports Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/AE-1000W-3AVDF_1.jpg",
+    "images/products/AE-1000W-3AVDF_2.jpg",
+    "images/products/AE-1000W-3AVDF_3.jpg",
+    "images/products/AE-1000W-3AVDF_4.jpg",
+    "images/products/AE-1000W-3AVDF_5.jpg",
+      "images/products/AE-1000W-3AVDF_6.jpg",
+      "images/products/AE-1000W-3AVDF_7.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz (Digital)",
+    "case_material": "Resin",
+    "band_material": "Resin Band",
+    "water_resistance": "100 meters / 10 bar",
+    "case_size": "48.1 x 42.6 x 13.4 mm",
+    "weight": "50 g",
+    "battery": "CR2025 (10 years)",
+    "features": "World Time (48 cities), 1/100-second Stopwatch, 5 Alarms, Countdown Timer, Full Auto Calendar, LED Light, 12/24-hour format"
+  },
+
+  "description_paragraphs": [
+    "Rugged and functional digital watch from Casio with World Time feature, perfect for travelers and sports enthusiasts.",
+    "Resin band and water resistance make it suitable for everyday adventures, while long battery life ensures reliability."
+  ]
+},
+{
+  "slug": "ae-1200wh-1avdf",
+  "name": "Casio AE-1200WH-1AVDF",
+  "price": 12500,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "World Time Digital Watch with Resin Band",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/AE-1200WH-1AVDF_1.jpg",
+    "images/products/AE-1200WH-1AVDF_2.jpg"
+
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz (Digital)",
+    "case_material": "Resin",
+    "band_material": "Resin Band",
+    "water_resistance": "100 meters / 10 bar",
+    "case_size": "45.4 x 42.1 x 12.5 mm",
+    "weight": "57 g",
+    "battery": "CR2025 (10 years)",
+    "features": "World Time (48 cities), 1/100-second Stopwatch, 5 Alarms, Countdown Timer, Full Auto Calendar, LED Light, 12/24-hour format"
+  },
+
+  "description_paragraphs": [
+    "Reliable and multifunctional digital watch with World Time for frequent travelers.",
+    "Resin case and band make it lightweight and durable, while 10-year battery ensures long-lasting use."
+  ]
+},
+{
+  "slug": "ae-1500wh-8budf",
+  "name": "Casio AE-1500WH-8BUDF",
+  "price": 13500,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Multi-function Digital Watch with Resin Band",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/AE-1500WH-8BUDF_1.jpg",
+    "images/products/AE-1500WH-8BUDF_2.jpg",
+    "images/products/AE-1500WH-8BUDF_3.jpg",
+    "images/products/AE-1500WH-8BUDF_4.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz (Digital)",
+    "case_material": "Resin",
+    "band_material": "Resin Band",
+    "water_resistance": "100 meters / 10 bar",
+    "case_size": "48.7 x 42.3 x 13.5 mm",
+    "weight": "56 g",
+    "battery": "CR2025 (10 years)",
+    "features": "World Time (48 cities), 1/100-second Stopwatch, 5 Alarms, Countdown Timer, Full Auto Calendar, LED Light, 12/24-hour format"
+  },
+
+  "description_paragraphs": [
+    "Durable digital watch with multiple features for daily use and travel.",
+    "Resin case and band provide comfort and long-lasting wear, combined with a 10-year battery life."
+  ]
+},
+{
+  "slug": "ae-1600h-8bvdf",
+  "name": "Casio AE-1600H-8BVDF",
+  "price": 11200,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Digital Watch with World Time and Resin Band",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/AE-1600H-8BVDF_1.jpg",
+    "images/products/AE-1600H-8BVDF_2.jpg",
+    "images/products/AE-1600H-8BVDF_3.jpg",
+    "images/products/AE-1600H-8BVDF_4.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz (Digital)",
+    "case_material": "Resin",
+    "band_material": "Resin Band",
+    "water_resistance": "100 meters / 10 bar",
+    "case_size": "46.7 x 43.2 x 12.7 mm",
+    "weight": "48 g",
+    "battery": "CR2025 (10 years)",
+    "features": "World Time (48 cities), 1/100-second Stopwatch, 5 Alarms, Countdown Timer, Full Auto Calendar, LED Light, 12/24-hour format"
+  },
+
+  "description_paragraphs": [
+    "Practical digital watch combining global time features with durable resin construction.",
+    "Comfortable for everyday wear, lightweight, and powered by a long-lasting battery."
+  ]
+},
+{
+  "slug": "dw-291hx-5avdf",
+  "name": "Casio DW-291HX-5AVDF",
+  "price": 13900,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Rugged Digital Sports Watch with Resin Band",
+  "badge": "G-Shock Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/DW-291HX-5AVDF_1.jpg",
+    "images/products/DW-291HX-5AVDF_2.jpg",
+    "images/products/DW-291HX-5AVDF_3.jpg",
+    "images/products/DW-291HX-5AVDF_4.jpg",
+    "images/products/DW-291HX-5AVDF_5.jpg",
+    "images/products/DW-291HX-5AVDF_6.jpg",
+    "images/products/DW-291HX-5AVDF_7.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz (Digital)",
+    "case_material": "Resin",
+    "band_material": "Resin Band",
+    "water_resistance": "200 meters / 20 bar",
+    "case_size": "51 x 46 x 15.5 mm",
+    "weight": "56 g",
+    "battery": "CR2016 (10 years)",
+    "features": "Shock Resistant, 1/100-second Stopwatch, Countdown Timer, 5 Daily Alarms, Auto Calendar, LED Backlight, 12/24-hour format"
+  },
+
+  "description_paragraphs": [
+    "Durable digital watch from Casio's rugged sports line built to withstand tough conditions.",
+    "Lightweight and water-resistant, ideal for outdoor activities and daily wear."
+  ]
+},
+
+  {
+  "slug": "f-91w-1dg",
+  "name": "Casio F-91W-1DG",
+  "price": 4950,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Classic Digital Watch with Resin Band",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/F-91W-1DG_1.jpg",
+    "images/products/F-91W-1DG_2.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz (Digital)",
+    "case_material": "Resin",
+    "band_material": "Resin Band",
+    "water_resistance": "Water Resistant (splash / daily wear)",
+    "case_size": "33 x 38 x 8.5 mm",
+    "weight": "21 g",
+    "battery": "CR2016 (7 years)",
+    "features": "Daily Alarm, Hourly Time Signal, Stopwatch, Auto Calendar, LED Light, 12/24-hour format"
+  },
+
+  "description_paragraphs": [
+    "Iconic digital watch from Casio combining simplicity, reliability, and lightweight comfort.",
+    "Perfect for everyday use, with practical functions like alarm, stopwatch, and long-lasting battery."
+  ]
+},
+{
+  "slug": "f-91wb-8adf",
+  "name": "Casio F-91WB-8ADF",
+  "price": 7600,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Classic slim digital watch with resin band and eco-resin strap",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/F91WB-8ADF_1.jpg",
+    "images/products/F91WB-8ADF_2.jpg",
+    "images/products/F91WB-8ADF_3.jpg",
+     "images/products/F91WB-8ADF_4.jpg",
+     "images/products/F91WB-8ADF_5.jpg",
+     "images/products/F91WB-8ADF_6.jpg",
+     "images/products/F91WB-8ADF_7.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz (Digital)",
+    "case_material": "Resin",
+    "band_material": "Bio-Based Resin Band",
+    "case_size": "38.2 x 35.2 x 8.5 mm",
+    "weight": "21 g",
+    "water_resistance": "Water Resistant (splash / daily wear)",
+    "battery": "CR2016 (7 years)",
+    "features": "1/100-second Stopwatch, Daily Alarm, Hourly Time Signal, Auto-Calendar, LED Light, 12/24-hour format, Date/Day Display"
+  },
+
+  "description_paragraphs": [
+    "A minimalist digital watch from Casio — the F-91WB-8ADF keeps things simple and reliable with daily alarm, stopwatch, auto-calendar, and lightweight resin build.",
+    "With its bio-based resin band, classic digital styling and long battery life, it's perfect for everyday casual wear or as a starter everyday watch."
+  ]
+},
+{
+  "slug": "f-91wm-7adf",
+  "name": "Casio F-91WM-7ADF",
+  "price": 6500,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Classic lightweight digital watch with resin band — simple, reliable, everyday wear",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/F-91WM-7ADF_1.jpg",
+    "images/products/F-91WM-7ADF_2.jpg"
+
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz (Digital)",
+    "case_material": "Resin",
+    "band_material": "Resin Band",
+    "water_resistance": "Water Resistant (splash / daily wear)",
+    "case_size": "33 x 38 x 8.5 mm",
+    "weight": "21 g",
+    "battery": "CR2016 (7 years)",
+    "features": "Daily Alarm, Hourly Time Signal, Stopwatch, Auto-Calendar, LED Backlight, 12/24-hour format"
+  },
+
+  "description_paragraphs": [
+    "A lightweight and durable digital watch from Casio — ideal for everyday wear with practical features like alarm, stopwatch, and auto-calendar.",
+    "Slim resin case and band combined with reliable quartz movement make it a perfect mix of classic style and daily functionality."
+  ]
+},
+
+{
+    "slug": "ga-2100-1adr",
+    "name": "Casio GA-2100-1ADR",
+    "price": 25500,
+    "currency": "Rs.",
+    "category": "g-shock",
+    "short_description": "Analog-digital Carbon Core Guard G-Shock watch with resin band",
+    "badge": "G-Shock Carbon",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/GA-2100-1ADR_6.jpg",
+      "images/products/GA-2100-1ADR_2.jpg",
+      "images/products/GA-2100-1ADR_3.jpg",
+      "images/products/GA-2100-1ADR_4.jpg",
+      "images/products/GA-2100-1ADR_5.jpg",
+      "images/products/GA-2100-1ADR_1.jpg",
+      "images/products/GA-2100-1ADR_7.jpg",
+      "images/products/GA-2100-1ADR_8.jpg"
+    ],
+    "specs": {
+      "display": "Analog + Digital",
+      "movement": "Quartz (Analog-Digital)",
+      "case_material": "Carbon / Resin (Carbon Core Guard)",
+      "band_material": "Resin Band",
+      "water_resistance": "200 m / 20 bar",
+      "case_size": "48.5 x 45.4 x 11.8 mm",
+      "weight": "51 g",
+      "battery": "SR726W x 2 (approx. 3 years)",
+      "features": "Shock resistant; Mineral glass; Double LED light; World time (31 time zones, 48 cities + UTC); 1/100-second stopwatch; Countdown timer; 5 daily alarms; Hourly time signal; Full auto-calendar; 12/24-hour format; Hand-shift feature"
+    },
+    "description_paragraphs": [
+      "The Casio GA-2100-1ADR is a tough and versatile G-Shock watch featuring a Carbon Core Guard structure and 200 m water resistance, designed for rugged use and everyday wear.",
+      "Its analog-digital display, world time, stopwatch, countdown timer and long battery life make the GA-2100-1ADR an ideal choice for sports, travel and daily lifestyle use."
+    ]
+  },
+  {
+    "slug": "ga-2100-7a7dr",
+    "name": "Casio GA-2100-7A7DR",
+    "price": 26800,
+    "currency": "Rs.",
+    "category": "g-shock",
+    "short_description": "Analog-digital Carbon Core Guard G-Shock watch with resin band (white)",
+    "badge": "G-Shock Carbon",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/GA-2100-7A7DR.jpg",
+      "images/products/GA-2100-7A7DR_1.jpg",
+      "images/products/GA-2100-7A7DR_2.jpg",
+      "images/products/GA-2100-7A7DR_3.jpg",
+      "images/products/GA-2100-7A7DR_4.jpg",
+      "images/products/GA-2100-7A7DR_5.jpg",
+      "images/products/GA-2100-7A7DR_6.jpg",
+      "images/products/GA-2100-7A7DR_7.jpg"
+    ],
+    "specs": {
+      "display": "Analog + Digital",
+      "movement": "Quartz (Analog-Digital)",
+      "case_material": "Carbon / Bio-Based Resin (Carbon Core Guard)",
+      "band_material": "Bio-Based Resin Band",
+      "water_resistance": "200 m / 20 bar",
+      "case_size": "48.5 x 45.4 x 11.8 mm",
+      "weight": "51 g",
+      "battery": "SR726W x 2 (approx. 3 years)",
+      "features": "Shock resistant; Mineral glass; Double LED light; World time (31 time zones / 48 cities + UTC); 1/100-second stopwatch; Countdown timer; 5 daily alarms; Full auto-calendar; 12/24-hour format; Hand-shift feature"
+    },
+    "description_paragraphs": [
+      "Stylish white G-Shock from the Carbon Core Guard line - rugged and built to last with 200 m water resistance and shock-resistant construction.",
+      "Analog-digital display with world time, stopwatch, countdown timer, multiple alarms and LED light makes GA-2100-7A7DR a versatile daily wear watch for urban lifestyle or outdoor adventures."
+    ]
+  },
+  {
+    "slug": "ga-2100-9a9dr",
+    "name": "Casio GA-2100-9A9DR",
+    "price": 25500,
+    "currency": "Rs.",
+    "category": "g-shock",
+    "short_description": "Analog-Digital Carbon Core Guard G-Shock Watch with Resin Band (Volt-Yellow / Tone-on-Tone)",
+    "badge": "G-Shock Carbon",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/GA-2100-9A9DR_5.jpg",
+      "images/products/GA-2100-9A9DR_2.jpg",
+      "images/products/GA-2100-9A9DR_3.jpg",
+      "images/products/GA-2100-9A9DR_4.jpg",
+      "images/products/GA-2100-9A9DR_1.jpg",
+      "images/products/GA-2100-9A9DR_6.jpg",
+      "images/products/GA-2100-9A9DR_7.jpg"
+    ],
+    "specs": {
+      "display": "Analog + Digital",
+      "movement": "Quartz (Analog-Digital)",
+      "case_material": "Carbon / Bio-based Resin (Carbon Core Guard)",
+      "band_material": "Bio-based Resin Band",
+      "water_resistance": "200 m / 20 bar",
+      "case_size": "48.5 x 45.4 x 11.8 mm",
+      "weight": "51 g",
+      "battery": "SR726W x 2 (3 years)",
+      "features": "Shock resistant; Mineral glass; Double LED light; World time (31 time zones / 48 cities + UTC); 1/100-second stopwatch; Countdown timer; 5 daily alarms; Full auto-calendar; 12/24-hour format; Hand-shift feature"
+    },
+    "description_paragraphs": [
+      "Vibrant Volt-Yellow tone-on-tone G-Shock from Casio’s GA-2100 line — combining rugged Carbon Core Guard construction with street-ready design.",
+      "With 200 m water resistance, world-time, stopwatch, alarms, timers and super-illuminator LED light, GA-2100-9A9DR is ideal for daily wear or adventurous outings."
+    ]
+  },
+{
+  "slug": "hdc-700-3avdf",
+  "name": "Casio HDC-700-3AVDF",
+  "price": 9500,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Analog-Digital Resin Watch with World Time & 10-Year Battery Life",
+  "badge": "Casio Standard",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/HDC-700-3AVDF_5.jpg",
+    "images/products/HDC-700-3AVDF_1.jpg",
+    "images/products/HDC-700-3AVDF_2.jpg",
+    "images/products/HDC-700-3AVDF_3.jpg",
+    "images/products/HDC-700-3AVDF_4.jpg",
+
+    "images/products/HDC-700-3AVDF_6.jpg",
+    "images/products/HDC-700-3AVDF_7.jpg"
+  ],
+
+  "specs": {
+    "display": "Analog + Digital",
+    "movement": "Quartz (Analog-Digital)",
+    "case_material": "Resin",
+    "band_material": "Resin Band",
+    "water_resistance": "100 meters / 10 bar",
+    "case_size": "53.3 x 48.8 x 16.6 mm",
+    "weight": "49 g",
+    "battery": "CR2025 (10 years)",
+    "features": "World Time (30 cities), 1/100-second Stopwatch, Countdown Timer (24 h), Telememo (30 entries), 3 Daily Alarms + Snooze, Hourly Signal, LED Light (afterglow), Full Auto-Calendar, 12/24-hr format"
+  },
+
+  "description_paragraphs": [
+    "Versatile analog-digital watch from Casio combining global timekeeping, long battery life and practical features - ideal for daily wear, travel, and outdoor use.",
+    "Resin case and band give lightweight durability, while 100 m water resistance and 10-year battery make HDC-700-3AVDF a reliable companion for everyday lifestyle."
+  ]
+},
+{
+  "slug": "mdv-107d-3avdf",
+  "name": "Casio MDV-107D-3AVDF",
+  "price": 21500,
+  "currency": "Rs.",
+  "category": "analog-watches",
+  "short_description": "Diver-style stainless steel watch with bold green sunburst dial.",
+  "badge": "Diver Style",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/MDV-107D-3AVDF_1.jpg",
+    "images/products/mdv-107d-3avdf_2.jpg",
+    "images/products/MDV-107D-3AVDF_3.jpg",
+    "images/products/MDV-107D-3AVDF_4.jpg",
+    "images/products/MDV-107D-3AVDF_5.jpg"
+  ],
+
+  "specs": {
+    "display": "Analog",
+    "movement": "Quartz",
+    "case_material": "Stainless Steel",
+    "band_material": "Stainless Steel",
+    "water_resistance": "200 m ISO Diver Rated",
+    "case_size": "47 x 41 x 12 mm",
+    "weight": "125 g",
+    "battery": "SR626SW (approx. 3 years)",
+    "features": "Unidirectional bezel, Date display, Luminous hands & markers, Screw-down crown"
+  },
+
+  "description_paragraphs": [
+    "The Casio MDV-107D-3AVDF is a bold diver-inspired watch featuring a striking green sunburst dial and a durable stainless steel build.",
+    "With 200 m water resistance, a screw-down crown, and luminous markers, it delivers reliable performance for everyday wear and outdoor use."
+  ]
+}
+,
+
+{
+  "slug": "mtp-1239d-2adf",
+  "name": "Casio MTP-1239D-2ADF",
+  "price": 10499,
+  "currency": "Rs.",
+  "category": "analog-watches",
+  "short_description": "Classic analog watch with blue dial, stainless steel bracelet, and day-date display.",
+  "badge": "Classic Analog",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/MTP-1239D-2ADF.jpg",
+    "images/products/MTP-1239D-2ADF_6.jpg",
+    "images/products/MTP-1239D-2ADF_7.jpg",
+    "images/products/MTP-1239D-2ADF_8.jpg"
+  ],
+
+  "specs": {
+    "display": "Analog",
+    "movement": "Quartz",
+    "case_material": "Stainless Steel",
+    "band_material": "Stainless Steel Bracelet",
+    "water_resistance": "50 meters",
+    "case_size": "42.6 x 38.5 x 9.2 mm",
+    "weight": "95 g",
+    "glass": "Mineral Glass",
+    "features": "Day & Date display, 3-hand analog timekeeping, Fold-over clasp with safety lock"
+  },
+
+  "description_paragraphs": [
+    "Casio MTP-1239D-2ADF is a timeless analog watch combining classic design and everyday functionality - featuring a striking blue dial, stainless steel bracelet, and reliable quartz movement.",
+    "With day-date display, water resistance for daily wear and a comfortable bracelet, this watch fits both casual and formal outfits, making it perfect for office, events or daily use."
+  ]
+}
+,
+
+{
+  "slug": "mtp-1302d-7a2vdf",
+  "name": "Casio MTP-1302D-7A2VDF",
+  "price": 11339,
+  "currency": "Rs.",
+  "category": "analog-watches",
+  "short_description": "Classic analog stainless-steel watch with date display and 50m water resistance",
+  "badge": "Classic Analog",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/MTP-1302D-7A2VDF_1.jpg",
+    "images/products/MTP-1302D-7A2VDF_2.jpg",
+    "images/products/MTP-1302D-7A2VDF_3.jpg",
+    "images/products/MTP-1302D-7A2VDF_4.jpg",
+    "images/products/MTP-1302D-7A2VDF_5.jpg",
+    "images/products/MTP-1302D-7A2VDF_6.jpg",
+    "images/products/MTP-1302D-7A2VDF_7.jpg",
+    "images/products/MTP-1302D-7A2VDF_8.jpg"
+  ],
+
+  "specs": {
+    "display": "Analog",
+    "movement": "Quartz",
+    "case_material": "Ion-plated Stainless Steel",
+    "band_material": "Stainless Steel Bracelet",
+    "water_resistance": "50 meters",
+    "case_size": "44.2 x 38.5 x 9.2 mm",
+    "weight": "105 g",
+    "glass": "Mineral Glass",
+    "features": "Date display, 3-hand timekeeping (hour, minute, second), Fold-over clasp with safety, Quartz accuracy ±20 sec/month"
+  },
+
+  "description_paragraphs": [
+    "Casio MTP-1302D-7A2VDF is a refined analog watch blending classic elegance with everyday practicality - stainless-steel construction, date display, and 50 m water resistance make it ideal for office or casual wear.",
+    "With its durable bracelet, mineral glass, and reliable quartz movement, this watch is perfect for those seeking timeless style and dependable performance at an affordable price."
+  ]
+}
+,
+{
+  "slug": "mtp-1302dd-5avdf",
+  "name": "Casio MTP-1302DD-5AVDF",
+  "price": 11800,
+  "currency": "Rs.",
+  "category": "analog-watches",
+  "short_description": "Classic analog stainless-steel watch with date display and champagne dial",
+  "badge": "Classic Analog",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/MTP-1302DD-5AVDF.jpg",
+    "images/products/MTP-1302DD-5AVDF_5.jpg",
+    "images/products/MTP-1302DD-5AVDF_6.jpg",
+    "images/products/MTP-1302DD-5AVDF_7.jpg",
+    "images/products/MTP-1302DD-5AVDF_8.jpg"
+  ],
+
+  "specs": {
+    "display": "Analog",
+    "movement": "Quartz",
+    "case_material": "Ion-plated Stainless Steel",
+    "band_material": "Stainless Steel Bracelet",
+    "water_resistance": "50 meters",
+    "case_size": "44.2 x 38.5 x 9.2 mm",
+    "weight": "105 g",
+    "glass": "Mineral Glass",
+    "features": "Date display, 3-hand timekeeping (hour, minute, second), Fold-over clasp with safety, Quartz accuracy ±20 sec/month"
+  },
+
+  "description_paragraphs": [
+    "Casio MTP-1302DD-5AVDF brings together classic styling and everyday practicality - featuring a champagne dial, stainless steel bracelet, and date window, making it a great choice for formal or casual wear.",
+    "With reliable quartz movement, water resistance suitable for daily wear, and durable build quality, this watch offers strong value for money."
+  ]
+}
+,
+{
+  "slug": "mtp-1302pd-2a2vef",
+  "name": "Casio MTP-1302PD-2A2VEF",
+  "price": 31500,
+  "currency": "Rs.",
+  "category": "analog-watches",
+  "short_description": "Classic stainless steel watch with turquoise (Tiffany-blue) dial, date display and mineral glass",
+  "badge": "Classic Analog",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/MTP-1302PD-2A2VEF.jpg",
+    "images/products/MTP-1302PD-2A2VEF_8.jpg"
+  ],
+
+  "specs": {
+    "display": "Analog",
+    "movement": "Quartz",
+    "case_material": "Ion-plated stainless steel / Brass case & stainless steel bracelet",
+    "band_material": "Stainless Steel Bracelet",
+    "water_resistance": "50 meters / 5 bar",
+    "case_size": "44.2 x 38.5 x 9.2 mm",
+    "weight": "105 g",
+    "glass": "Mineral Glass",
+    "features": "Date display, 3-hand analog (hour, minute, second), Neo-display luminous hands, Fold-over / triple-fold clasp bracelet, Quartz accuracy ±20 sec/month"
+  },
+
+  "description_paragraphs": [
+    "Casio MTP-1302PD-2A2VEF features a striking Tiffany-blue dial with mineral glass and stainless steel bracelet - offering a blend of elegant design and casual versatility.",
+    "With 50 meter water resistance, date display, and reliable quartz movement, it's perfect for daily wear or semi-formal occasions."
+  ]
+}
+,
+{
+  "slug": "mtp-1308d-1avdf",
+  "name": "Casio MTP-1308D-1AVDF",
+  "price": 11900,
+  "currency": "Rs.",
+  "category": "analog-watches",
+  "short_description": "Classic analog stainless-steel watch with black dial and day-date display.",
+  "badge": "Classic Analog",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/MTP-1308D-1AVDF_1.jpg",
+    "images/products/MTP-1308D-1AVDF_8.jpg"
+  ],
+
+  "specs": {
+    "display": "Analog",
+    "movement": "Quartz",
+    "case_material": "Stainless Steel",
+    "band_material": "Stainless Steel Bracelet",
+    "water_resistance": "50 meters / 5 bar",
+    "case_size": "43 x 38 x 8.5 mm",
+    "weight": "100 g",
+    "glass": "Mineral Glass",
+    "features": "Day & Date Display, 3-hand timekeeping, Fold-over Clasp with Safety, Quartz Accuracy ±20 sec/month"
+  },
+
+  "description_paragraphs": [
+    "Casio MTP-1308D-1AVDF is a refined classic analog watch combining traditional styling with everyday functionality - featuring a sleek black dial, stainless steel bracelet, and day-date display.",
+    "With comfortable metal bracelet, water resistance for daily wear, and a slim profile, this watch is ideal for office wear, formal settings, or casual everyday use."
+  ]
+}
+,
+{
+  "slug": "mtp-1374d-7a2vdf",
+  "name": "Casio MTP-1374D-7A2VDF",
+  "price": 18500,
+  "currency": "Rs.",
+  "category": "analog-watches",
+  "short_description": "Classic stainless-steel analog watch with day, date & 24-hour subdials",
+  "badge": "Classic Analog",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/MTP-1374D-7A2VDF_1.jpg",
+    "images/products/MTP-1374D-7A2VDF.jpg",
+    "images/products/MTP-1374D-7A2VDF_8.jpg"
+  ],
+
+  "specs": {
+    "display": "Analog",
+    "movement": "Quartz",
+    "case_material": "Ion-plated Stainless Steel",
+    "band_material": "Stainless Steel Bracelet",
+    "water_resistance": "50 meters / 5 bar",
+    "case_size": "47 x 43.5 x 11.1 mm",
+    "weight": "124 g",
+    "glass": "Mineral Glass",
+    "features": "Day, Date & 24-hour subdials; 3-hand analog timekeeping; 3-fold clasp bracelet; Quartz accuracy ±20 sec/month"
+  },
+
+  "description_paragraphs": [
+    "The Casio MTP-1374D-7A2VDF offers a refined yet versatile style — a stainless-steel bracelet, a clean dial with day, date, and 24-hour subdials, and a durable mineral glass crystal.",
+    "Water-resistant up to 50 meters and powered by precise quartz movement, it’s ideal for daily wear, office use, or casual outings — striking a balance between classic design and reliability."
+  ]
+}
+,
+{
+  "slug": "mtp-b145d-2a1vef",
+  "name": "Casio MTP-B145D-2A1VEF",
+  "price": 10999,
+  "currency": "Rs.",
+  "category": "analog-watches",
+  "short_description": "Classic stainless-steel analog watch with turquoise dial and date display",
+  "badge": "Classic Analog",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/MTP-B145D-2A1VEF_8.jpg",
+    "images/products/MTP-B145D-2A1VEF_1.jpg"
+  ],
+
+  "specs": {
+    "display": "Analog",
+    "movement": "Quartz",
+    "case_material": "Stainless Steel",
+    "band_material": "Stainless Steel Bracelet",
+    "water_resistance": "50 meters / 5 ATM",
+    "case_size": "35 x 35 x 7.4 mm",
+    "weight": "82 g",
+    "glass": "Mineral Glass",
+    "features": "Date Display, 3-hand Analog Timekeeping, Fold-over Clasp Bracelet, Quartz Accuracy ±20 sec/month"
+  },
+
+  "description_paragraphs": [
+    "Casio MTP-B145D-2A1VEF is a slim, minimalist analog watch featuring a turquoise dial and stainless steel bracelet — ideal for everyday wear or formal occasions.",
+    "With 50 m water resistance, date window at 3 o'clock, and a lightweight design, it delivers elegant styling and dependable quartz precision."
+  ]
+}
+,
+
+{
+  "slug": "mtp-v001l-1budf",
+  "name": "Casio MTP-V001L-1BUDF",
+  "price": 6900,
+  "currency": "Rs.",
+  "category": "analog-watches",
+  "short_description": "Classic analog watch with black leather strap and simple 3-hand quartz movement",
+  "badge": "Classic Analog",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/MTP-V001L-1BUDF_1.jpg",
+    "images/products/MTP-V001L-1BUDF.jpg",
+    "images/products/MTP-V001L-1BUDF_2.jpg",
+    "images/products/MTP-V001L-1BUDF_3.jpg",
+    "images/products/MTP-V001L-1BUDF_4.jpg",
+    "images/products/MTP-V001L-1BUDF_5.jpg",
+    "images/products/MTP-V001L-1BUDF_6.jpg",
+    "images/products/MTP-V001L-1BUDF_7.jpg"
+  ],
+
+  "specs": {
+    "display": "Analog",
+    "movement": "Quartz",
+    "case_material": "Stainless Steel",
+    "band_material": "Leather Strap",
+    "water_resistance": "Water Resistant (splash / daily wear)",
+    "case_size": "45 x 38 x 8 mm",
+    "weight": "42 g",
+    "glass": "Mineral Glass",
+    "features": "3-hand analog timekeeping (hour, minute, second), Quartz accuracy +/-20 sec/month, Approx. battery life: 3 years (SR626SW)"
+  },
+
+  "description_paragraphs": [
+    "Casio MTP-V001L-1BUDF is a timeless classic analog watch - slim profile, black leather strap and minimalist black dial make it ideal for everyday wear or formal occasions.",
+    "With mineral glass, reliable quartz movement, and a lightweight build, it's a simple and affordable watch that delivers dependable timekeeping with understated elegance."
+  ]
+}
+
+,
+
+{
+  "slug": "mtp-v004d-1cudf",
+  "name": "Casio MTP-V004D-1CUDF",
+  "price": 9500,
+  "currency": "Rs.",
+  "category": "analog-watches",
+  "short_description": "Classic stainless-steel analog watch with black dial and date display",
+  "badge": "Classic Analog",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/MTP-V004D-1CUDF_1.jpg",
+    "images/products/MTP-V004D-1CUDF_2.jpg",
+
+    "images/products/MTP-V004D-1CUDF_4.jpg",
+    "images/products/MTP-V004D-1CUDF_5.jpg"
+  ],
+
+  "specs": {
+    "display": "Analog",
+    "movement": "Quartz (Japan module 5058)",
+    "case_material": "Ion-plated Stainless Steel",
+    "band_material": "Stainless Steel Bracelet",
+    "water_resistance": "Water Resistant (splash/rain - daily wear)",
+    "case_size": "47 x 41.5 x 8.3 mm",
+    "weight": "96 g",
+    "glass": "Mineral Glass",
+    "features": "Date display at 3 o'clock; 3-hand analog timekeeping; Triple-fold clasp bracelet; Accuracy +/-20 sec/month; Approx. 3 year battery life (SR626SW)"
+  },
+
+  "description_paragraphs": [
+    "Casio MTP-V004D-1CUDF is a clean and elegant analog watch - stainless-steel bracelet, mineral glass and a simple black dial make it suitable for both office and casual wear.",
+    "With a date window, reliable quartz movement, and a slim 8.3 mm case, it's a timeless everyday watch that blends versatility with understated style."
+  ]
+}
+,
+
+{
+  "slug": "mtp-v004d-2budf",
+  "name": "Casio MTP-V004D-2BUDF",
+  "price": 8500,
+  "currency": "Rs.",
+  "category": "analog-watches",
+  "short_description": "Classic analog stainless-steel watch with blue dial and date display",
+  "badge": "Classic Analog",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/MTP-V004D-2BUDF.jpg",
+    "images/products/MTP-V004D-2BUDF_8.jpg",
+    "images/products/MTP-V004D-2BUDF_4.jpg",
+    "images/products/MTP-V004D-2BUDF_5.jpg"
+  ],
+
+  "specs": {
+    "display": "Analog",
+    "movement": "Quartz",
+    "case_material": "Stainless Steel",
+    "band_material": "Stainless Steel Bracelet",
+    "water_resistance": "50 meters / 5 bar",
+    "case_size": "47 x 41.5 x 8.3 mm",
+    "weight": "96 g",
+    "glass": "Mineral Glass",
+    "features": "Date Display, 3-hand analog timekeeping (hour, minute, second), Triple-fold clasp bracelet, Accuracy +/-20 sec/month, Approx. 3-year battery life (SR626SW)"
+  },
+
+  "description_paragraphs": [
+    "Casio MTP-V004D-2BUDF is a stylish and affordable stainless-steel analog watch with a deep blue dial and date window - perfect for daily wear or formal occasions.",
+    "With mineral glass, 50 m water resistance for everyday use, and a durable steel bracelet, it combines classic design and practical reliability at a great price."
+  ]
+}
+,
+
+{
+    "slug": "mtp-v004d-7budf",
+    "name": "Casio MTP-V004D-7BUDF",
+    "price": 8900,
+    "currency": "Rs.",
+    "category": "analog-watches",
+    "short_description": "Classic analog stainless-steel watch with silver dial and date display",
+    "badge": "Classic Analog",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/MTP-V004D-7BUDF.jpg"
+    ],
+    "specs": {
+      "display": "Analog",
+      "movement": "Quartz",
+      "case_material": "Stainless Steel",
+      "band_material": "Stainless Steel Bracelet",
+      "water_resistance": "50 meters / 5 bar",
+      "case_size": "47 x 41.5 x 8.3 mm",
+      "weight": "96 g",
+      "glass": "Mineral Glass",
+      "features": "Date Display, 3-hand analog timekeeping (hour, minute, second), Triple-fold clasp bracelet, Accuracy ±20 sec/month, Approx. 3-year battery life"
+    },
+    "description_paragraphs": [
+      "Casio MTP-V004D-7BUDF offers a refined and timeless look with its clean silver dial, stainless-steel bracelet, and classic analog styling — great for both casual and formal wear.",
+      "With 50 m water resistance, reliable quartz movement, and a sturdy metal bracelet, it delivers durable everyday performance while maintaining elegant aesthetics."
+    ]
+  },
+  {
+    "slug": "mtp-v004l-1budf",
+    "name": "Casio MTP-V004L-1BUDF",
+    "price": 7400,
+    "currency": "Rs.",
+    "category": "analog-watches",
+    "short_description": "Classic analog watch with black leather strap and minimalist dial — slim and elegant for everyday wear",
+    "badge": "Classic Analog",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/MTP-V004L-1BUDF.jpg"
+    ],
+    "specs": {
+      "display": "Analog",
+      "movement": "Quartz",
+      "case_material": "Stainless Steel",
+      "band_material": "Leather Strap",
+      "water_resistance": "Water Resistant (splash / daily wear)",
+      "case_size": "42 x 36 x 8 mm",
+      "weight": "40 g",
+      "glass": "Mineral Glass",
+      "features": "3-hand analog timekeeping, Quartz accuracy ±20 sec/month, Slim case, Classic minimalist design"
+    },
+    "description_paragraphs": [
+      "Casio MTP-V004L-1BUDF offers a minimalist and elegant design with a clean dial and a black leather strap — ideal for casual or formal wear.",
+      "Lightweight and comfortable, with reliable quartz movement and a slim profile, this watch is a classic everyday timepiece that blends simplicity and style."
+    ]
+  },
+  {
+    "slug": "mtp-v004l-2budf",
+    "name": "Casio MTP-V004L-2BUDF",
+    "price": 7400,
+    "currency": "Rs.",
+    "category": "analog-watches",
+    "short_description": "Classic analog watch with blue leather strap and minimalist dial — slim and elegant for everyday wear",
+    "badge": "Classic Analog",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/MTP-V004L-2BUDF_5.jpg",
+      "images/products/MTP-V004L-2BUDF_1.jpg",
+      "images/products/MTP-V004L-2BUDF_3.jpg",
+      "images/products/MTP-V004L-2BUDF_7.jpg"
+    ],
+    "specs": {
+      "display": "Analog",
+      "movement": "Quartz",
+      "case_material": "Stainless Steel",
+      "band_material": "Leather Strap",
+      "water_resistance": "Water Resistant (splash / daily wear)",
+      "case_size": "42 x 36 x 8 mm",
+      "weight": "40 g",
+      "glass": "Mineral Glass",
+      "features": "3-hand analog timekeeping, Quartz accuracy ±20 sec/month, Slim case, Minimalist design"
+    },
+    "description_paragraphs": [
+      "Casio MTP-V004L-2BUDF combines a minimalist dial with a blue leather strap for a refined yet casual look — ideal for everyday wear or formal occasions.",
+      "Lightweight and comfortable, with precise quartz movement and a slim profile, this watch quietly balances elegance and practicality."
+    ]
+  },
+  {
+    "slug": "mtp-v005d-1b5udf",
+    "name": "Casio MTP-V005D-1B5UDF",
+    "price": 9000,
+    "currency": "Rs.",
+    "category": "analog-watches",
+    "short_description": "Classic Casio analog watch with black dial and stainless steel bracelet — timeless, versatile everyday style",
+    "badge": "Classic Analog",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/MTP-V005D-1B5UDF_1.jpg",
+      "images/products/MTP-V005D-1B5UDF_2.jpg",
+      "images/products/MTP-V005D-1B5UDF_3.jpg"
+    ],
+    "specs": {
+      "display": "Analog",
+      "movement": "Quartz",
+      "case_material": "Stainless Steel",
+      "band_material": "Stainless Steel Band",
+      "water_resistance": "Water Resistant (3 ATM / 30 m)",
+      "case_size": "47 x 40 x 8.1 mm",
+      "weight": "90 g",
+      "glass": "Mineral Glass",
+      "features": "3-hand analog timekeeping, Quartz accuracy ±20 sec/month, Triple-fold clasp, Classic dress design"
+    },
+    "description_paragraphs": [
+      "The Casio MTP-V005D-1B5UDF is a sleek, classic analog wristwatch featuring a black dial with a durable stainless steel bracelet — perfect for daily wear or office attire.",
+      "Equipped with reliable quartz movement, mineral glass protection, and basic water resistance, this watch offers dependable timekeeping with timeless styling and comfortable wearability."
+    ]
+  },
+
+{
+    "slug": "mtp-v005d-2b5udf",
+    "name": "Casio MTP-V005D-2B5UDF",
+    "price": 8800,
+    "currency": "Rs.",
+    "category": "analog-watches",
+    "short_description": "Classic Casio analog watch with blue dial and stainless steel bracelet — versatile everyday and formal accessory",
+    "badge": "Classic Analog",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/MTP-V005D-2B5UDF_1.jpg",
+      "images/products/MTP-V005D-2B5UDF_2.jpg",
+      "images/products/MTP-V005D-2B5UDF_3.jpg",
+      "images/products/MTP-V005D-2B5UDF_4.jpg",
+      "images/products/MTP-V005D-2B5UDF_5.jpg",
+      "images/products/MTP-V005D-2B5UDF_6.jpg",
+      "images/products/MTP-V005D-2B5UDF_7.jpg"
+    ],
+    "specs": {
+      "display": "Analog",
+      "movement": "Quartz",
+      "case_material": "Stainless Steel",
+      "band_material": "Stainless Steel Band",
+      "water_resistance": "Water Resistant (3 ATM / splash-proof)",
+      "case_size": "47 x 40 x 8.1 mm",
+      "weight": "90 g",
+      "glass": "Mineral Glass",
+      "features": "3-hand analog timekeeping, Quartz accuracy ±20 sec/month, Triple-fold clasp, Blue dial, Classic dress design"
+    },
+    "description_paragraphs": [
+      "The Casio MTP-V005D-2B5UDF offers a sleek and timeless analog design with a striking blue dial paired with a durable stainless steel bracelet — making it perfect for both daily wear and dress occasions.",
+      "Featuring reliable quartz movement, mineral glass protection, and basic water resistance, this watch delivers dependable precision and comfort with a classic aesthetic that complements any outfit."
+    ]
+  },
+  {
+    "slug": "mtp-v005d-7b5udf",
+    "name": "Casio MTP-V005D-7B5UDF",
+    "price": 8800,
+    "currency": "Rs.",
+    "category": "analog-watches",
+    "short_description": "Classic Casio analog watch with silver dial and stainless steel bracelet — versatile and reliable everyday timepiece",
+    "badge": "Classic Analog",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/MTP-V005D-7B5UDF_1.jpg",
+      "images/products/MTP-V005D-7B5UDF_2.jpg",
+      "images/products/MTP-V005D-7B5UDF_3.jpg",
+      "images/products/MTP-V005D-7B5UDF_4.jpg",
+      "images/products/MTP-V005D-7B5UDF_5.jpg",
+      "images/products/MTP-V005D-7B5UDF_6.jpg",
+      "images/products/MTP-V005D-7B5UDF_7.jpg"
+    ],
+    "specs": {
+      "display": "Analog",
+      "movement": "Quartz (Japan Movt)",
+      "case_material": "Stainless Steel",
+      "band_material": "Stainless Steel Band",
+      "water_resistance": "Water Resistant (3 ATM / splash-proof)",
+      "case_size": "47 x 40 x 8.1 mm",
+      "weight": "90 g",
+      "glass": "Mineral Glass",
+      "features": "3-hand analog timekeeping, Quartz accuracy ±20 sec/month, Triple-fold clasp, Classic stainless steel finish"
+    },
+    "description_paragraphs": [
+      "Casio MTP-V005D-7B5UDF is a classic analog men’s watch featuring a silver dial with easy-to-read markers and a durable stainless steel bracelet — suitable for both daily wear and more formal occasions.",
+      "It combines reliable Japanese quartz movement, mineral glass protection, basic water resistance, and a triple-fold clasp for secure fit, delivering dependable performance with a timeless aesthetic."
+    ]
+  },
+  {
+    "slug": "mtp-v006d-2budf",
+    "name": "Casio MTP-V006D-2BUDF",
+    "price": 9037,
+    "currency": "Rs.",
+    "category": "analog-watches",
+    "short_description": "Casio classic analog watch with blue dial and stainless steel band — timeless design with day & date display",
+    "badge": "Classic Analog",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": true,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/MTP-V006D-2BUDF_1.jpg",
+      "images/products/MTP-V006D-2BUDF_2.jpg",
+      "images/products/MTP-V006D-2BUDF_3.jpg",
+      "images/products/MTP-V006D-2BUDF_4.jpg",
+      "images/products/MTP-V006D-2BUDF_5.jpg",
+      "images/products/MTP-V006D-2BUDF_6.jpg",
+      "images/products/MTP-V006D-2BUDF_7.jpg",
+      "images/products/MTP-V006D-2BUDF_8.jpg"
+    ],
+    "specs": {
+      "display": "Analog",
+      "movement": "Quartz (Japan Movement)",
+      "case_material": "Stainless Steel",
+      "band_material": "Stainless Steel Band",
+      "water_resistance": "Water Resistant (splash/daily wear)",
+      "case_size": "45.1 x 38 x 9.4 mm",
+      "weight": "93 g",
+      "glass": "Mineral Glass",
+      "features": "3-hand analog timekeeping, Day & Date display, Triple-fold clasp, Quartz accuracy ±20 sec/month"
+    },
+    "description_paragraphs": [
+      "Casio MTP-V006D-2BUDF features a classic blue dial housed in a stainless steel case with a matching stainless steel bracelet — perfect for everyday or office wear.",
+      "This analog watch includes reliable quartz movement, easy-to-read day and date displays, and durable mineral glass protection, combining timeless style with everyday functionality."
+    ]
+  },
+  {
+    "slug": "mtp-v006l-1cudf",
+    "name": "Casio MTP-V006L-1CUDF",
+    "price": 9600,
+    "currency": "Rs.",
+    "category": "analog-watches",
+    "short_description": "Classic Casio analog watch with black dial, day & date display, and genuine leather strap — polished look for daily or formal wear",
+    "badge": "Classic Analog",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/MTP-V006L-1CUDF_1.jpg",
+      "images/products/MTP-V006L-1CUDF_2.jpg",
+      "images/products/MTP-V006L-1CUDF_3.jpg",
+      "images/products/MTP-V006L-1CUDF_4.jpg",
+      "images/products/MTP-V006L-1CUDF_5.jpg",
+      "images/products/MTP-V006L-1CUDF_6.jpg",
+      "images/products/MTP-V006L-1CUDF_7.jpg"
+    ],
+    "specs": {
+      "display": "Analog",
+      "movement": "Quartz (Japan Movement)",
+      "case_material": "Chrome-plated Stainless Steel",
+      "band_material": "Leather Strap",
+      "water_resistance": "Water Resistant (3 ATM / splash-proof)",
+      "case_size": "45.1 x 38 x 9.4 mm",
+      "weight": "46 g",
+      "glass": "Mineral Glass",
+      "features": "3-hand analog timekeeping, Day & Date display at 3 o’clock, Quartz accuracy ±20 sec/month, Classic dial with bar indices"
+    },
+    "description_paragraphs": [
+      "The Casio MTP-V006L-1CUDF is a refined analog wristwatch featuring a sleek black dial with day and date windows and a genuine leather strap, ideal for both everyday wear and more formal occasions.",
+      "Powered by reliable quartz movement with a mineral crystal, water resistance suitable for daily activities, and a classic analog layout, this watch blends functional convenience with timeless design."
+    ]
+  },
+{
+    "slug": "mtp-vd01d-1evudf",
+    "name": "Casio MTP-VD01D-1EVUDF",
+    "price": 13130,
+    "currency": "Rs.",
+    "category": "analog-watches",
+    "short_description": "Elegant Casio analog men's watch featuring a sleek black dial with date display and stainless steel bracelet — ideal for everyday or formal wear",
+    "badge": "Classic Analog",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": true,
+      "discount_percent": 20
+    },
+    "images": [
+      "images/products/MTP-VD01D-1EVUDF_1.jpg",
+      "images/products/MTP-VD01D-1EVUDF_2.jpg",
+      "images/products/MTP-VD01D-1EVUDF_3.jpg",
+      "images/products/MTP-VD01D-1EVUDF_4.jpg",
+      "images/products/MTP-VD01D-1EVUDF_5.jpg",
+      "images/products/MTP-VD01D-1EVUDF_6.jpg"
+    ],
+    "specs": {
+      "display": "Analog",
+      "movement": "Quartz",
+      "case_material": "Stainless Steel",
+      "band_material": "Stainless Steel Bracelet",
+      "water_resistance": "50 m / 5 ATM",
+      "case_size": "49 x 45 x 10.3 mm",
+      "weight": "118 g",
+      "glass": "Mineral Glass",
+      "features": "3-hand analog timekeeping, Date display at 3 o'clock, Triple-fold clasp, Quartz accuracy ±20 sec/month"
+    },
+    "description_paragraphs": [
+      "Casio MTP-VD01D-1EVUDF is a classic analog men's watch with a striking black dial, date display at the 3 o'clock position, and a sturdy stainless steel bracelet — perfect for both casual and formal occasions.",
+      "Built with reliable quartz movement, mineral glass protection, and 50 m water resistance, this watch combines dependable performance with timeless design that enhances your everyday style."
+    ]
+  },
+  {
+    "slug": "mtp-vd01d-3bvudf",
+    "name": "Casio MTP-VD01D-3BVUDF",
+    "price": 11300,
+    "currency": "Rs.",
+    "category": "analog-watches",
+    "short_description": "Stylish Casio analog men's watch with green dial, date display, and stainless steel bracelet — rugged yet classic for daily or formal wear",
+    "badge": "Classic Analog",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/MTP-VD01D-3BVUDF_1.jpg",
+      "images/products/MTP-VD01D-3BVUDF_2.jpg",
+      "images/products/MTP-VD01D-3BVUDF_3.jpg",
+      "images/products/MTP-VD01D-3BVUDF_4.jpg",
+      "images/products/MTP-VD01D-3BVUDF_5.jpg"
+    ],
+    "specs": {
+      "display": "Analog",
+      "movement": "Quartz (Japan Movement)",
+      "case_material": "Stainless Steel",
+      "band_material": "Stainless Steel Bracelet",
+      "water_resistance": "50 m / 5 ATM",
+      "case_size": "49 x 45 x 10.3 mm",
+      "weight": "118 g",
+      "glass": "Mineral Glass",
+      "features": "3-hand analog timekeeping, Date display at 3 o'clock, Triple-fold clasp, Quartz accuracy ±20 sec/month"
+    },
+    "description_paragraphs": [
+      "The Casio MTP-VD01D-3BVUDF features a striking green analog dial with a date window and a robust stainless steel bracelet, offering a bold yet refined look for everyday wear or formal occasions.",
+      "Built with reliable quartz movement, mineral glass protection, and solid water resistance up to 50 m, this watch delivers dependable performance and stylish versatility suitable for work, leisure, and special events."
+    ]
+  },
+  {
+    "slug": "mtp-vd01d-3e1vudf",
+    "name": "Casio MTP-VD01D-3E1VUDF",
+    "price": 12800,
+    "currency": "Rs.",
+    "category": "analog-watches",
+    "short_description": "Casio analog men's watch with vibrant green dial, date display, and stainless steel bracelet — classic and reliable for daily or formal wear",
+    "badge": "Classic Analog",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/MTP-VD01D-3E1VUDF.jpg"
+    ],
+    "specs": {
+      "display": "Analog",
+      "movement": "Quartz (Japan Movement)",
+      "case_material": "Stainless Steel",
+      "band_material": "Stainless Steel Bracelet",
+      "water_resistance": "50 m / 5 ATM",
+      "case_size": "49 x 45 x 10.3 mm",
+      "weight": "118 g",
+      "glass": "Mineral Glass",
+      "features": "3-hand analog timekeeping, Date display at 3 o'clock, Triple-fold clasp, Quartz accuracy ±20 sec/month"
+    },
+    "description_paragraphs": [
+      "The Casio MTP-VD01D-3E1VUDF features a vibrant green dial with clear markers, date display at the 3 o'clock position, and a durable stainless steel bracelet — perfect for daily wear or dressing up for special occasions.",
+      "Powered by reliable Japanese quartz movement with mineral glass protection and 50 m water resistance, this watch delivers dependable performance with timeless, classic styling that suits both casual and formal outfits."
+    ]
+  },
+  {
+    "slug": "mtp-vd01d-4bvudf",
+    "name": "Casio MTP-VD01D-4BVUDF",
+    "price": 12800,
+    "currency": "Rs.",
+    "category": "analog-watches",
+    "short_description": "Stylish Casio analog men's watch with red dial, date display, and stainless steel bracelet — classic everyday timepiece with reliable quartz movement",
+    "badge": "Classic Analog",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/MTP-VD01D-4BVUDF_1.jpg",
+      "images/products/MTP-VD01D-4BVUDF_2.jpg",
+      "images/products/MTP-VD01D-4BVUDF_3.jpg",
+      "images/products/MTP-VD01D-4BVUDF_4.jpg",
+      "images/products/MTP-VD01D-4BVUDF_5.jpg"
+    ],
+    "specs": {
+      "display": "Analog",
+      "movement": "Quartz (Japan Movement)",
+      "case_material": "Stainless Steel",
+      "band_material": "Stainless Steel Bracelet",
+      "water_resistance": "50 m / 5 ATM",
+      "case_size": "49 x 45 x 10.3 mm",
+      "weight": "118 g",
+      "glass": "Mineral Glass",
+      "features": "3-hand analog timekeeping, Date display at 3 o'clock, Triple-fold clasp, Quartz accuracy ±20 sec/month"
+    },
+    "description_paragraphs": [
+      "The Casio MTP-VD01D-4BVUDF features a bold red dial with clear markers and a date window, paired with a stainless steel bracelet for an elegant yet robust design — ideal for everyday wear or formal occasions.",
+      "Equipped with reliable Japanese quartz movement, mineral glass protection, and water resistance up to 50 m, this watch offers dependable precision and classic style that complements any outfit."
+    ]
+  },
+{
+  "slug": "mtp-vd01l-2bvudf",
+  "name": "Casio MTP-VD01L-2BVUDF",
+  "price": 11699,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Casio analog men's watch with blue dial and matching leather strap, featuring date display and 50m water resistance — classic everyday style",
+  "badge": "Classic Analog",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/MTP-VD01L-2BVUDF_1.jpg",
+    "images/products/MTP-VD01L-2BVUDF_2.jpg",
+    "images/products/MTP-VD01L-2BVUDF_3.jpg",
+    "images/products/MTP-VD01L-2BVUDF_4.jpg",
+    "images/products/MTP-VD01L-2BVUDF_5.jpg",
+    "images/products/MTP-VD01L-2BVUDF_6.jpg"
+  ],
+
+  "specs": {
+    "display": "Analog",
+    "movement": "Quartz",
+    "case_material": "Stainless Steel",
+    "band_material": "Blue Leather Strap",
+    "water_resistance": "50m / 5ATM",
+    "case_size": "49 x 45 x 10.3 mm",
+    "weight": "70 g",
+    "glass": "Mineral Glass",
+    "features": "3-hand analog timekeeping, Date display at 3o'clock, Comfortable leather strap, Quartz accuracy +20 and -20 sec/month"
+  },
+
+  "description_paragraphs": [
+    "The Casio MTP-VD01L-2BVUDF combines a rich blue dial with a matching blue genuine leather strap for a refined and stylish everyday watch. It includes a date display at the 3 o'clock position and reliable quartz movement for effortless timekeeping. ",
+    "Built with a sturdy stainless steel case, mineral glass protection, and 50m water resistance that handles light rain and splashes, this timepiece offers casual elegance with lasting comfort - perfect for both daily wear and casual dress occasions. "
+  ]
+},
+
+{
+    "slug": "mtp-vd01sg-1bvudf",
+    "name": "Casio MTP-VD01SG-1BVUDF",
+    "price": 13999,
+    "currency": "Rs.",
+    "category": "analog-watches",
+    "short_description": "Casio analog men's watch with black dial, two-tone stainless steel bracelet and date display — classic everyday timepiece with 50 m water resistance",
+    "badge": "Classic Analog",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/MTP-VD01SG-1BVUDF_1.jpg",
+      "images/products/MTP-VD01SG-1BVUDF_2.jpg",
+      "images/products/MTP-VD01SG-1BVUDF_3.jpg",
+      "images/products/MTP-VD01SG-1BVUDF_4.jpg",
+      "images/products/MTP-VD01SG-1BVUDF_5.jpg",
+      "images/products/MTP-VD01SG-1BVUDF_6.jpg"
+    ],
+    "specs": {
+      "display": "Analog",
+      "movement": "Quartz (Japan Movement)",
+      "case_material": "Stainless Steel with Gold-ion Plating",
+      "band_material": "Two-tone Stainless Steel Bracelet",
+      "water_resistance": "50 m / 5 ATM",
+      "case_size": "49 x 45 x 10.3 mm",
+      "weight": "118 g",
+      "glass": "Mineral Glass",
+      "features": "3-hand analog timekeeping, Date display at 3 o'clock, Triple-fold clasp, Quartz accuracy ±20 sec/month"
+    },
+    "description_paragraphs": [
+      "The Casio MTP-VD01SG-1BVUDF features a striking black dial with clear date display and a stylish two-tone stainless steel bracelet with gold-ion plating — perfect for everyday wear or formal occasions.",
+      "Equipped with reliable Japanese quartz movement, mineral glass protection and 50 m water resistance, this watch combines classic design with everyday durability and accurate timekeeping."
+    ]
+  },
+  {
+    "slug": "mtp-vd03d-1avdf",
+    "name": "Casio MTP-VD03D-1AVDF",
+    "price": 12160,
+    "currency": "Rs.",
+    "category": "analog-watches",
+    "short_description": "Classic Casio analog men's watch with black dial, date display, and stainless steel bracelet — timeless design for everyday use",
+    "badge": "Classic Analog",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": true,
+      "discount_percent": 15
+    },
+    "images": [
+      "images/products/MTP-VD03D-1AVDF_1.jpg",
+      "images/products/MTP-VD03D-1AVDF_2.jpg",
+      "images/products/MTP-VD03D-1AVDF_3.jpg",
+      "images/products/MTP-VD03D-1AVDF_4.jpg"
+    ],
+    "specs": {
+      "display": "Analog",
+      "movement": "Quartz (Japan Movement)",
+      "case_material": "Stainless Steel",
+      "band_material": "Stainless Steel Bracelet",
+      "water_resistance": "Water Resistant (30 m / 3 ATM)",
+      "case_size": "48 x 41 x 9.6 mm",
+      "weight": "106 g",
+      "glass": "Mineral Glass",
+      "features": "3-hand analog timekeeping, Date display at 3 o'clock, Triple-fold clasp, Quartz accuracy ±20 sec/month"
+    },
+    "description_paragraphs": [
+      "The Casio MTP-VD03D-1AVDF features a sleek black dial with a clear date display and a durable stainless steel bracelet — perfect for everyday wear, office settings, and casual occasions. Its minimalist layout and classic design make it a versatile timepiece.",
+      "Powered by reliable quartz movement with mineral glass protection and splash-resistant construction, this watch offers dependable timekeeping and a timeless aesthetic that complements any outfit."
+    ]
+  },
+  {
+    "slug": "mtp-vd03d-3a1vdf",
+    "name": "Casio MTP-VD03D-3A1VDF",
+    "price": 11200,
+    "currency": "Rs.",
+    "category": "analog-watches",
+    "short_description": "Casio classic analog men's watch with green dial, date display and stainless steel bracelet — timeless design for everyday wear",
+    "badge": "Classic Analog",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/MTP-VD03D-3A1VDF_1.jpg",
+      "images/products/MTP-VD03D-3A1VDF_2.jpg",
+      "images/products/MTP-VD03D-3A1VDF_3.jpg",
+      "images/products/MTP-VD03D-3A1VDF_4.jpg",
+      "images/products/MTP-VD03D-3A1VDF_5.jpg",
+      "images/products/MTP-VD03D-3A1VDF_6.jpg"
+    ],
+    "specs": {
+      "display": "Analog",
+      "movement": "Quartz (Japan Movement)",
+      "case_material": "Stainless Steel",
+      "band_material": "Stainless Steel Bracelet",
+      "water_resistance": "Water Resistant (30 m / 3 ATM)",
+      "case_size": "48 x 41 x 9.6 mm",
+      "weight": "106 g",
+      "glass": "Mineral Glass",
+      "features": "3-hand analog timekeeping, Date display at 3 o'clock, Triple-fold clasp, Quartz accuracy ±20 sec/month"
+    },
+    "description_paragraphs": [
+      "The Casio MTP-VD03D-3A1VDF features a striking green dial with a clear date display and a durable stainless steel bracelet — perfect for daily wear, office settings, and casual occasions. Verified reliable quartz movement and classic analog design offer both style and functionality.",
+      "With mineral glass protection, comfortable bracelet fit, and basic water resistance suitable for splashes and daily activities, this watch delivers dependable performance with a sleek, timeless aesthetic."
+    ]
+  },
+  {
+    "slug": "mwa-300h-3avdf",
+    "name": "Casio MWA-300H-3AVDF",
+    "price": 10999,
+    "currency": "Rs.",
+    "category": "classic-watches",
+    "short_description": "Casio analog men's chronograph watch with green dial and matching resin strap — rugged yet stylish with multi-function chronograph and date display",
+    "badge": "Sport Analog",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/MWA-300H-3AVDF_1.jpg",
+      "images/products/MWA-300H-3AVDF_2.jpg",
+      "images/products/MWA-300H-3AVDF_3.jpg",
+      "images/products/MWA-300H-3AVDF_4.jpg",
+      "images/products/MWA-300H-3AVDF_5.jpg",
+      "images/products/MWA-300H-3AVDF_6.jpg",
+      "images/products/MWA-300H-3AVDF_7.jpg"
+    ],
+    "specs": {
+      "display": "Analog",
+      "movement": "Quartz (Japan Movement)",
+      "case_material": "Resin / Stainless Steel",
+      "band_material": "Green Resin Strap",
+      "water_resistance": "100 m / 10 ATM",
+      "case_size": "52.3 x 50.9 x 14.3 mm",
+      "weight": "50 g",
+      "glass": "Resin Glass",
+      "features": "3-hand analog timekeeping, Date display, Chronograph subdials, Stopwatch with 1/10-second accuracy, Quartz accuracy ±20 sec/month"
+    },
+    "description_paragraphs": [
+      "The Casio MWA-300H-3AVDF combines a bold green dial with a matching resin strap and a sporty chronograph layout — ideal for everyday wear, outdoor activities, and casual occasions. Its analog display includes a date window and multiple subdials for stopwatch functionality, blending style and practicality.",
+      "Powered by precise quartz movement with a durable resin case and resin glass, this watch offers reliable performance and water resistance up to 100 m — making it suitable for swimming and light water sports."
+    ]
+  }
+,{
+  "slug": "mwq-100-3avdf",
+  "name": "Casio MWQ-100-3AVDF",
+  "price": 11999,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Casio analog-digital men's watch with green and black dial, resin band and world time - sport-ready with chronograph, stopwatch and 100 m water resistance",
+  "badge": "Sport Analog-Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/MWQ-100-3AVDF_1.jpg",
+    "images/products/MWQ-100-3AVDF_2.jpg",
+    "images/products/MWQ-100-3AVDF_3.jpg",
+    "images/products/MWQ-100-3AVDF_4.jpg",
+    "images/products/MWQ-100-3AVDF_5.jpg",
+    "images/products/MWQ-100-3AVDF_6.jpg",
+    "images/products/MWQ-100-3AVDF_7.jpg",
+    "images/products/MWQ-100-3AVDF_8.jpg"
+  ],
+
+  "specs": {
+    "display": "Analog-Digital",
+    "movement": "Quartz",
+    "case_material": "Resin / Stainless Steel",
+    "band_material": "Resin Strap",
+    "water_resistance": "100 m / 10 ATM",
+    "case_size": "51.2 x 50.6 x 15 mm",
+    "weight": "60 g",
+    "glass": "Resin Glass",
+    "features": "World time (30 cities, 29 time zones), 1/100-second stopwatch, Countdown timer, 3 alarms + hourly signal, Full auto-calendar (to 2099), Telememo memory, 12/24-hour format, Analog hands + digital display, 10-year battery life"
+  },
+
+  "description_paragraphs": [
+    "The Casio MWQ-100-3AVDF blends a bold analog-digital design with practical functions - including world time across 30 cities, stopwatch, countdown timer and multi-alarm - all powered by a long-life 10-year battery and housed in a sporty resin strap and stainless steel case.",
+    "With 100 m water resistance and a rugged build, this watch is ideal for daily wear, active lifestyles and travel, offering both classic analog timekeeping and versatile digital functions in one performance-ready package."
+  ]
+}
+
+,
+
+{
+  "slug": "w-218h-1bvdf",
+  "name": "Casio W-218H-1BVDF",
+  "price": 7999,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Casio classic digital men's watch with black resin case and strap - rugged and practical with stopwatch, alarm, auto-calendar and 50 m water resistance",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/W-218H-1BVDF_1.jpg",
+    "images/products/W-218H-1BVDF_2.jpg",
+    "images/products/W-218H-1BVDF_3.jpg",
+    "images/products/W-218H-1BVDF_4.jpg",
+    "images/products/W-218H-1BVDF_5.jpg",
+    "images/products/W-218H-1BVDF_6.jpg",
+    "images/products/W-218H-1BVDF_7.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz",
+    "case_material": "Resin",
+    "band_material": "Resin Strap",
+    "water_resistance": "50 m / 5 ATM",
+    "case_size": "44.4 x 43.2 x 10.8 mm",
+    "weight": "37 g",
+    "glass": "Resin Glass",
+    "features": "1/100-second stopwatch, Daily alarm, Hourly time signal, Auto-calendar, LED backlight, 12/24-hour format, Approx. 7-year battery life"
+  },
+
+  "description_paragraphs": [
+    "The Casio W-218H-1BVDF is a classic digital men's wristwatch featuring a clear black LCD with LED backlight, a durable resin case and strap, and essential everyday functions including a stopwatch, daily alarm, and auto-calendar - ideal for casual and sport wear.",
+    "Powered by reliable quartz movement with an approximate 7-year battery life and 50 m water resistance, this watch offers practical performance and rugged reliability for daily activities."
+  ]
+}
+,
+{
+  "slug": "w-218h-3bvdf",
+  "name": "Casio W‑218H‑3BVDF",
+  "price": 7999,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Casio classic digital men’s watch with green resin case and strap — rugged and practical with stopwatch, alarm, auto‑calendar and 50 m water resistance",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/W-218H-3BVDF_1.jpg",
+    "images/products/W-218H-3BVDF_2.jpg",
+    "images/products/W-218H-3BVDF_3.jpg",
+    "images/products/W-218H-3BVDF_4.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz",
+    "case_material": "Resin",
+    "band_material": "Resin Strap",
+    "water_resistance": "50 m / 5 ATM",
+    "case_size": "44.4 × 43.2 × 10.8 mm",
+    "weight": "37 g",
+    "glass": "Resin Glass",
+    "features": "1/100‑second stopwatch, Daily alarm, Hourly time signal, Auto‑calendar, LED backlight, 12/24‑hour format, Approx. 7‑year battery life"
+  },
+
+  "description_paragraphs": [
+    "The Casio W‑218H‑3BVDF is a sporty digital men’s wristwatch featuring a dark green resin case and strap with a clear LCD and amber LED backlight — combining practical everyday functions like stopwatch, alarm, and auto‑calendar with a rugged, casual style. :contentReference[oaicite:1]{index=1}",
+    "Powered by reliable quartz movement with an approximate 7‑year battery life and 50 m water resistance, this watch is lightweight and dependable for daily wear, outdoor activities, and active lifestyles. :contentReference[oaicite:2]{index=2}"
+  ]
+},
+{
+  "slug": "w-218h-8bvdf",
+  "name": "Casio W-218H-8BVDF",
+  "price": 7999,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Casio classic digital men's watch with white resin case and strap - rugged yet simple with stopwatch, daily alarm, auto-calendar and 50 m water resistance",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/W-218H-8BVDF_1.jpg",
+    "images/products/W-218H-8BVDF_2.jpg",
+    "images/products/W-218H-8BVDF_3.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz",
+    "case_material": "Resin",
+    "band_material": "Resin Strap",
+    "water_resistance": "50 m / 5 ATM",
+    "case_size": "44.4 x 43.2 x 10.8 mm",
+    "weight": "37 g",
+    "glass": "Resin Glass",
+    "features": "1/100-second stopwatch, Daily alarm, Hourly time signal, Auto-calendar, LED backlight, 12/24-hour format, Approx. 7-year battery life"
+  },
+
+  "description_paragraphs": [
+    "The Casio W-218H-8BVDF is a classic digital wristwatch featuring a clean white resin case and strap, high-contrast LCD display with LED backlight, and essential everyday functions like a 1/100-second stopwatch, daily alarm, and auto-calendar - perfect for casual daily wear.",
+    "Powered by a reliable quartz movement with an approximate 7-year battery life and 50 m water resistance, this watch offers practical functionality and dependable performance in a lightweight, sporty design."
+  ]
+}
+,
+{
+  "slug": "w-218hc-4avdf",
+  "name": "Casio W-218HC-4AVDF",
+  "price": 7999,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Casio classic digital unisex watch with pink resin case and strap - practical and stylish with LED backlight, stopwatch, alarm, auto-calendar and 50 m water resistance",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/W218HC-4AVDF_1.jpg",
+    "images/products/W218HC-4AVDF_2.jpg",
+    "images/products/W218HC-4AVDF_3.jpg",
+    "images/products/W218HC-4AVDF_4.jpg",
+    "images/products/W218HC-4AVDF_5.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz",
+    "case_material": "Resin",
+    "band_material": "Resin Strap",
+    "water_resistance": "50 m / 5 ATM",
+    "case_size": "44.4 x 43.2 x 11 mm",
+    "weight": "37 g",
+    "glass": "Resin Glass",
+    "features": "1/100-second stopwatch, Daily alarm, Hourly time signal, Auto-calendar, LED backlight, 12/24-hour format, Approx. 7-year battery life, Regular timekeeping (hour, minute, second, pm, date, day)"
+  },
+
+  "description_paragraphs": [
+    "The Casio W-218HC-4AVDF is a classic unisex digital watch featuring a lively pink resin case and strap paired with a functional LCD and LED backlight - ideal for everyday wear as well as casual and sport settings. It delivers core digital functions like a 1/100-second stopwatch, daily alarm, calendar and hourly signal with reliable simplicity.",
+    "Built with dependable quartz movement and approximately 7 years of battery life, this watch also offers 50 m water resistance for daily activities such as hand washing and light splashes. Its lightweight construction and resin materials make it both comfortable and durable for long-term wear."
+  ]
+}
+,
+{
+  "slug": "w-218hd-1avdf",
+  "name": "Casio W-218HD-1AVDF",
+  "price": 15999,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Casio classic digital watch with silver stainless steel bracelet - everyday style with stopwatch, alarm, auto-calendar, amber LED backlight and 50 m water resistance",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/W-218HD-1AVDF_1.jpg",
+    "images/products/W-218HD-1AVDF_2.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz",
+    "case_material": "Resin",
+    "band_material": "Stainless Steel",
+    "water_resistance": "50 m / 5 ATM",
+    "case_size": "44.4 x 43.2 x 10.8 mm",
+    "weight": "85 g",
+    "glass": "Resin Glass",
+    "features": "1/100-second stopwatch, Daily alarm, Hourly time signal, Auto-calendar, LED backlight (amber), 12/24-hour format, Approx. 7-year battery life"
+  },
+
+  "description_paragraphs": [
+    "The Casio W-218HD-1AVDF is a classic digital timepiece featuring a refined silver stainless steel bracelet and durable resin case. Designed for versatile everyday wear, it combines a sporty square LCD with practical functions such as a 1/100-second stopwatch, daily alarm, auto-calendar and an amber LED backlight for easy reading in all conditions.",
+    "Powered by reliable quartz movement with approximately 7 years of battery life and 50 m water resistance, this model offers dependable performance and timeless style - ideal for casual, work or leisure use."
+  ]
+}
+,
+{
+  "slug": "w-219-hb-3adf",
+  "name": "Casio W-219-HB-3ADF",
+  "price": 8999,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Casio classic digital men's watch with black case and green-accent cloth strap - rugged everyday design with stopwatch, alarm, LED light and 50 m water resistance",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/W-219-HB-3ADF_1.jpg",
+    "images/products/W-219-HB-3ADF_2.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz",
+    "case_material": "Resin",
+    "band_material": "Cloth / Nylon Strap",
+    "water_resistance": "50 m / 5 ATM",
+    "case_size": "48.1 x 47.1 x 13.9 mm",
+    "weight": "34 g",
+    "glass": "Resin Glass",
+    "features": "1/100-second stopwatch, Daily alarm, Hourly time signal, Auto-calendar, LED backlight, 12/24-hour format, Approx. 7-year battery life"
+  },
+
+  "description_paragraphs": [
+    "The Casio W-219-HB-3ADF is a rugged classic digital watch featuring a durable resin case paired with a comfortable cloth/nylon strap, ideal for everyday use and outdoor wear. It offers essential functions including a 1/100-second stopwatch, daily alarm, hourly signal, automatic calendar and a bright LED backlight for easy reading in low light.",
+    "Powered by a reliable quartz movement with approximately 7 years of battery life and 50 m water resistance, this watch combines practical functionality with a lightweight build - perfect for casual or active lifestyles."
+  ]
+}
+,
+{
+  "slug": "w-737-hx-5avdf",
+  "name": "Casio W-737-HX-5AVDF",
+  "price": 8999,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Casio classic digital men's watch with resin case and strap - functional everyday design with world time, stopwatch, timer, alarm, calendar, dual time and 100 m water resistance",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+
+
+
+  "images": [
+    "images/products/W-737-HX-5AVDF_1.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz",
+    "case_material": "Resin",
+    "band_material": "Resin Strap",
+    "water_resistance": "100 m / 10 ATM",
+    "case_size": "51.9 x 45.7 x 14 mm",
+    "weight": "46 g",
+    "glass": "Resin Glass",
+    "features": "World time, Dual time, 1/100-second stopwatch, Countdown timer, Daily alarm, Hourly time signal, Full auto-calendar (to 2099), LED backlight (amber), 12/24-hour format, Approx. 10-year battery life"
+  },
+
+  "description_paragraphs": [
+    "The Casio W-737-HX-5AVDF is a classic digital men's watch featuring a durable resin case and strap with a long-life battery and functional LCD. It offers everyday essentials such as world time, dual time, stopwatch, countdown timer, alarm and calendar - ideal for active lifestyles and daily wear.",
+    "With 100 m water resistance and an approximate 10-year battery life, this reliable quartz timepiece delivers versatile timing functions and a comfortable fit, making it a great companion for casual and sports use alike."
+  ]
+}
+,
+{
+  "slug": "ws-1500h-3bvdf",
+  "name": "Casio WS-1500H-3BVDF",
+  "price": 8999,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Casio classic digital men's sport watch with green resin case and strap - multifunctional everyday design with dual time, moon phase, fishing indicator, LED light and 100 m water resistance",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/WS-1500H-3BVDF_1.jpg",
+    "images/products/WS-1500H-3BVDF_2.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz",
+    "case_material": "Resin",
+    "band_material": "Resin Strap",
+    "water_resistance": "100 m / 10 ATM",
+    "case_size": "54.5 x 50.1 x 16.8 mm",
+    "weight": "58 g",
+    "glass": "Resin Glass",
+    "features": "Dual time, Moon phase indicator, Fishing level indicator, 1/100-second stopwatch, Countdown timer, Multi alarms, Hourly time signal, Full auto-calendar, LED backlight, 12/24-hour format, Approx. 10-year battery life"
+  },
+
+  "description_paragraphs": [
+    "The Casio WS-1500H-3BVDF is a rugged classic digital wristwatch featuring a durable green resin case and matching strap with a large, easy-to-read LCD display. Designed for outdoor and everyday use, it includes practical functions such as dual time, moon phase display, fishing level indicator, stopwatch, countdown timer and multiple alarms - perfect for active lifestyles.",
+    "Powered by a reliable quartz movement with an approximate 10-year battery life and 100 m water resistance, this watch also has a full auto-calendar and LED backlight for enhanced visibility in low light. Its sporty yet functional design makes it suitable for work, leisure and outdoor activities."
+  ]
+}
+,
+{
+  "slug": "ws-1600h-1avdf",
+  "name": "Casio WS-1600H-1AVDF",
+  "price": 8999,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Casio classic digital men's watch with black resin case and strap - reliable everyday design with world time, stopwatch, countdown timer, alarm, full auto-calendar, LED backlight and 100 m water resistance",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/WS-1600H-1AVDF_1.jpg",
+    "images/products/WS-1600H-1AVDF_2.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz",
+    "case_material": "Resin",
+    "band_material": "Resin Strap",
+    "water_resistance": "100 m / 10 ATM",
+    "case_size": "45 x 42.1 x 12.5 mm",
+    "weight": "39 g",
+    "glass": "Resin Glass",
+    "features": "World time (29 time zones), 1/1-second stopwatch, Countdown timer, Daily alarm, Hourly signal, Full auto-calendar (to 2099), Amber LED backlight, 12/24-hour format, Button tone on/off, Approx. 10-year battery life"
+  },
+
+  "description_paragraphs": [
+    "The Casio WS-1600H-1AVDF is a versatile classic digital wristwatch featuring a tough black resin case and strap with a clear LCD and amber LED backlight, suitable for everyday wear and active lifestyles. It includes world time, timers, stopwatch, alarm and a full auto-calendar for comprehensive daily functionality.",
+    "Powered by a reliable quartz movement with an approximate 10-year battery life and 100 m water resistance, this watch offers dependable performance with practical features like a countdown timer, hourly signal and dual time zone support, ideal for travel, sports and everyday use."
+  ]
+}
+,
+{
+  "slug": "ws-1700h-1avdf",
+  "name": "Casio WS-1700H-1AVDF",
+  "price": 10999,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Casio classic digital sport watch with black resin case and strap - multifunctional design with world time, moon and tide data, stopwatch, countdown timer, multi alarms, LED backlight and 100 m water resistance",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/WS-1700H-1AVDF_1.jpg",
+    "images/products/WS-1700H-1AVDF_2.jpg",
+    "images/products/WS-1700H-1AVDF_3.jpg",
+    "images/products/WS-1700H-1AVDF_4.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz",
+    "case_material": "Resin",
+    "band_material": "Resin Strap",
+    "water_resistance": "100 m / 10 ATM",
+    "case_size": "52.5 x 48.6 x 15.2 mm",
+    "weight": "48 g",
+    "glass": "Resin Glass",
+    "features": "World time, Dual time, Moon data and tide graph, 1/100-second stopwatch, Countdown timer, 3 multi-function alarms, Hourly time signal, Full auto-calendar (to 2099), LED backlight (amber), 12/24-hour format, Approx. 10-year battery life"
+  },
+
+  "description_paragraphs": [
+    "The Casio WS-1700H-1AVDF is a feature-packed classic digital watch with a robust black resin case and strap, perfect for everyday wear and outdoor activity. It offers world time and dual time functions, detailed moon data and tide graph for active lifestyles, plus a 1/100-second stopwatch and countdown timer for precise timekeeping.",
+    "Equipped with a long-life battery of approximately 10 years, 100 m water resistance and practical multi alarms with hourly signal, this dependable quartz timepiece also includes a full auto-calendar and an amber LED backlight for easy visibility in low light conditions."
+  ]
+}
+,
+{
+  "slug": "ws-2100h-8bvdf",
+  "name": "Casio WS-2100H-8BVDF",
+  "price": 10999,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Casio classic digital men's watch with grey and black resin case and strap - rugged everyday design with step tracker, world time, stopwatch, alarms, LED light and 100 m water resistance",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/WS-2100H-8BVDF_1.jpg",
+    "images/products/WS-2100H-8BVDF_2.jpg",
+    "images/products/WS-2100H-8BVDF_3.jpg",
+    "images/products/WS-2100H-8BVDF_4.jpg",
+    "images/products/WS-2100H-8BVDF_5.jpg",
+    "images/products/WS-2100H-8BVDF_6.jpg",
+    "images/products/WS-2100H-8BVDF_7.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz (CR2025)",
+    "case_material": "Resin",
+    "band_material": "Resin Strap",
+    "water_resistance": "100 m / 10 ATM",
+    "case_size": "49.9 x 48.1 x 14.6 mm",
+    "weight": "47 g",
+    "glass": "Resin Glass",
+    "features": "Step counter (pedometer), Dual time, World time (48 cities), 1/100-second stopwatch, Countdown timer, 5 daily alarms, Hourly time signal, Full auto-calendar (to 2099), LED backlight, 12/24-hour format"
+  },
+
+  "description_paragraphs": [
+    "The Casio WS-2100H-8BVDF is a rugged classic digital wristwatch with a grey and black resin case and strap designed for everyday wear and active lifestyles. It features a built-in step counter with history and progress graph, world time for multiple cities, dual time support and essential timing tools like a 1/100-second stopwatch and countdown timer, ideal for both daily life and workouts.",
+    "This timepiece also offers 100 m water resistance, multiple alarms with hourly signal, full auto-calendar and an LED backlight for easy reading in low light. Powered by a long-lasting quartz movement with a CR2025 battery, it provides reliable performance with practical functionality for casual, outdoor and travel use."
+  ]
+}
+
+
+
+
+
+
+
+
+]

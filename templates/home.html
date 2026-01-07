@@ -1,0 +1,517 @@
+{% extends "base.html" %}
+{% block title %}Premium Watches in Pakistan{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+{% endblock %}
+
+{% block extra_head %}
+<!-- Meta Description -->
+<meta name="description" content="Shop authentic Casio watches online in Pakistan. Discover Classic, Analog, G-Shock & Best Sellers with warranty and COD at A CASIO STORE.">
+<meta name="keywords" content="Casio watches, buy Casio online, Classic watches, G-Shock, Analog watches, digital watches, best sellers, AKWatches.pk">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:title" content="A CASIO STORE – Premium Casio Watches in Pakistan">
+<meta property="og:description" content="Shop authentic Casio watches online. Classic, Analog, G-Shock & Best Sellers available at A CASIO STORE with warranty and COD.">
+<meta property="og:image" content="{{ url_for('static', filename='images/logo.png') }}">
+<meta property="og:url" content="{{ request.url }}">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="A CASIO STORE – Premium Casio Watches in Pakistan">
+<meta name="twitter:description" content="Shop authentic Casio watches online. Classic, Analog, G-Shock & Best Sellers available at A CASIO STORE with warranty and COD.">
+<meta name="twitter:image" content="{{ url_for('static', filename='images/logo.png') }}">
+
+<!-- Structured Data JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "A CASIO STORE",
+  "image": "{{ url_for('static', filename='images/logo.png') }}",
+  "url": "https://acasiostore.pk",
+  "telephone": "+923462738961",
+  "sameAs": [
+    "https://www.tiktok.com/@acasioshop?_r=1&_t=ZS-92rgvvPR78i",
+    "https://www.youtube.com/channel/UCN5q6Y2cbmBduX_vySV1d9w"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Shop No F21B, First Floor Amma Tower, M.A.Jinnah Rd",
+    "addressLocality": "Karachi",
+    "addressCountry": "PK"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+    ],
+    "opens": "10:00",
+    "closes": "20:00"
+  }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<!-- TRUST / ANNOUNCEMENT TICKER -->
+<section class="trust-ticker">
+    <div class="trust-track">
+    <span>✔ 100% Original Casio Products</span>
+    <span>✔ Manufacturer Warranty</span>
+    <span>✔ Free Delivery Across Pakistan</span>
+    <span>✔ Cash on Delivery Available</span>
+    <span>✔ Best Prices Guaranteed</span>
+    <span>✔ Trusted by Thousands of Customers</span>
+
+    <span>✔ 100% Original Casio Products</span>
+    <span>✔ Manufacturer Warranty</span>
+    <span>✔ Free Delivery Across Pakistan</span>
+    <span>✔ Cash on Delivery Available</span>
+    <span>✔ Best Prices Guaranteed</span>
+    <span>✔ Trusted by Thousands of Customers</span>
+</div>
+
+</section>
+
+<!-- HERO VIDEO SECTION -->
+<section class="hero">
+    <video class="hero-video" autoplay muted loop playsinline>
+        <source src="{{ url_for('static', filename='videos/bg.mp4') }}" type="video/mp4">
+        Your browser does not support HTML video.
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+        <p class="hero-tagline">A CASIO STORE</p>
+        <h1>Premium Watches</h1>
+        <p class="hero-text">
+            Pakistan's trusted online store for original branded watches. From rugged
+            outdoor pieces to elegant dress watches, find the watch that matches your pace,
+            passion, and personality.
+        </p>
+        <a href="#categories" class="btn btn-primary">Shop Now</a>
+    </div>
+</section>
+
+<!-- CATEGORIES SLIDER -->
+<section id="categories" class="section categories-section container">
+    <div class="section-header">
+        <h2>Categories</h2>
+
+    </div>
+
+    <div class="categories-carousel" id="categoryCarousel">
+        {% for cat in categories %}
+        <article class="category-card">
+            <a href="{{ url_for('category_page', slug=cat.slug if cat.slug is defined else cat['slug']) }}">
+                <div class="category-image">
+                    <img src="{{ url_for('static', filename=cat.image if cat.image is defined else cat['image']) }}" alt="{{ cat.name if cat.name is defined else cat['name'] }}">
+                </div>
+                <h3 class="category-title">{{ cat.name if cat.name is defined else cat['name'] }}</h3>
+            </a>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- PRODUCT COLLECTION SECTION -->
+<section class="section collection-section">
+    <div class="container">
+        <header class="section-header centered">
+            <h2>A CASIO STORE Collection</h2>
+            <p>
+                Explore our best selling classic, analog, digital and sports watches
+                for both men and women at exclusive online prices.
+            </p>
+        </header>
+
+        <!-- COLLECTION TABS -->
+        <div class="collection-tabs">
+            {% for cat in categories %}
+            <button class="tab-button {% if loop.first %}active{% endif %}" data-tab="{{ cat.slug }}">
+                {{ cat.name }}
+            </button>
+            {% endfor %}
+        </div>
+
+       <!-- TAB PANELS -->
+<div class="tab-panels">
+    {% for cat_slug, cat_name in [
+        ("classic-watches", "Classic Watches"),
+        ("analog-watches", "Analog Watches"),
+        ("g-shock", "G-Shock")
+    ] %}
+    <div class="tab-panel {% if loop.first %}active{% endif %}" id="tab-{{ cat_slug }}">
+        <div class="product-grid">
+            {% set count = namespace(value=0) %}
+            {% for product in featured_products if product.category == cat_slug %}
+                {% if count.value < 4 %}
+                    <article class="product-card">
+                        <a href="{{ url_for('product_details', slug=product.slug) }}">
+                            <div class="product-image">
+                                <img src="{{ url_for('static', filename=product.images[0]) }}" alt="{{ product.name }}">
+                            </div>
+                            <h3 class="product-title">{{ product.name }}</h3>
+                            <p class="product-price">{{ product.currency }}{{ "{:,.0f}".format(product.price) }}</p>
+                        </a>
+                    </article>
+                    {% set count.value = count.value + 1 %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+    </div>
+</section>
+
+
+<!-- BEST SELLER BANNER -->
+<section class="section banner-section">
+    <div class="banner-inner container">
+        <div class="banner-text">
+            <p>Experience Perfection &amp; Style</p>
+            <h2>A CASIO STORE Best Sellers</h2>
+            <p>Where trend ticks to perfection — discover our most-loved digital classics.</p>
+            <a href="{{ url_for('category_page', slug='classic-watches') }}" class="btn btn-primary">
+                Explore Best Sellers
+            </a>
+        </div>
+
+        <div class="banner-products">
+            <!-- Row 1: First 3 watches -->
+            <div class="banner-products-row">
+                {% for watch in best_sellers[:3] %}
+                <div class="banner-product-card">
+                    <div class="banner-product-image">
+                        <img src="{{ url_for('static', filename=watch.images[0]) }}" alt="{{ watch.name }}">
+                        {% if watch.sale and watch.sale.on_sale %}
+                        <span class="sale-badge">SALE</span>
+                        {% endif %}
+                    </div>
+                    <h3 class="banner-product-title">{{ watch.name }}</h3>
+                    <p class="banner-product-price">
+                        {% if watch.sale and watch.sale.on_sale %}
+                            <span class="original-price">{{ watch.currency }}{{ "{:,.0f}".format(watch.price) }}</span>
+                            <span class="discounted-price">{{ watch.currency }}{{ "{:,.0f}".format(watch.price * (1 - watch.sale.discount_percent / 100)) }}</span>
+                        {% else %}
+                            {{ watch.currency }}{{ "{:,.0f}".format(watch.price) }}
+                        {% endif %}
+                    </p>
+                    <div class="banner-product-buttons">
+                        <button class="btn-cart">Add To Cart</button>
+                        <a href="{{ url_for('product_details', slug=watch.slug) }}" class="btn-details">View Details</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- Row 2: Last 2 watches -->
+            <div class="banner-products-row">
+                {% for watch in best_sellers[3:] %}
+                <div class="banner-product-card">
+                    <div class="banner-product-image">
+                        <img src="{{ url_for('static', filename=watch.images[0]) }}" alt="{{ watch.name }}">
+                        {% if watch.sale and watch.sale.on_sale %}
+                        <span class="sale-badge">SALE</span>
+                        {% endif %}
+                    </div>
+                    <h3 class="banner-product-title">{{ watch.name }}</h3>
+                    <p class="banner-product-price">
+                        {% if watch.sale and watch.sale.on_sale %}
+                            <span class="original-price">{{ watch.currency }}{{ "{:,.0f}".format(watch.price) }}</span>
+                            <span class="discounted-price">{{ watch.currency }}{{ "{:,.0f}".format(watch.price * (1 - watch.sale.discount_percent / 100)) }}</span>
+                        {% else %}
+                            {{ watch.currency }}{{ "{:,.0f}".format(watch.price) }}
+                        {% endif %}
+                    </p>
+                    <div class="banner-product-buttons">
+                        <button class="btn-cart">Add To Cart</button>
+                        <a href="{{ url_for('product_details', slug=watch.slug) }}" class="btn-details">View Details</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+.banner-section {
+    background: #f8f9fa;
+    padding: 3rem 0;
+}
+
+.banner-inner {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+}
+
+.banner-text {
+    flex: 1;
+}
+
+.banner-text p:first-child {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.banner-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.banner-text p:last-child {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+    background: #333;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: #555;
+}
+
+.banner-products {
+    flex: 2;
+}
+
+.banner-products-row {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.banner-product-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    flex: 1;
+    text-align: center;
+}
+
+.banner-product-image {
+    position: relative;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.banner-product-image img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.sale-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff4444;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.banner-product-title {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+    height: 2.5rem;
+    overflow: hidden;
+}
+
+.banner-product-price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.banner-product-price .original-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.banner-product-price .discounted-price {
+    color: #ff4444;
+}
+
+.banner-product-buttons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.btn-cart {
+    background: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    flex: 1;
+}
+
+.btn-details {
+    background: #666;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    flex: 1;
+    text-align: center;
+}
+
+.btn-cart:hover {
+    background: #555;
+}
+
+.btn-details:hover {
+    background: #777;
+}
+
+@media (max-width: 992px) {
+    .banner-inner {
+        flex-direction: column;
+    }
+
+    .banner-products {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-products-row {
+        flex-direction: column;
+    }
+
+    .banner-product-card {
+        margin-bottom: 1rem;
+    }
+}
+</style>
+
+<!-- BLOG SECTION -->
+<!--<section class="section blog-section">-->
+<!--    <div class="container">-->
+<!--        <header class="section-header">-->
+<!--            <h2>Latest from our Blog</h2>-->
+<!--        </header>-->
+<!--        <div class="blog-carousel">-->
+<!--            {% for blog in blogs %}-->
+<!--            <article class="blog-card">-->
+<!--                <div class="blog-image">-->
+<!--                    <img src="{{ url_for('static', filename=blog.image) }}" alt="{{ blog.title }}">-->
+<!--                    <div class="blog-date">-->
+<!--                        <span>{{ blog.date }}</span>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="blog-body">-->
+<!--                    <span class="blog-tag">Blog</span>-->
+<!--                    <h3>{{ blog.title }}</h3>-->
+<!--                    <p>Posted by AKWatches.pk</p>-->
+<!--                    <a href="#" class="blog-link">Continue Reading</a>-->
+<!--                </div>-->
+<!--            </article>-->
+<!--            {% endfor %}-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<!-- ABOUT SECTION -->
+<section class="section about-section">
+    <div class="container about-inner">
+        <div class="about-image">
+            <img src="{{ url_for('static', filename='images/about.png') }}" alt="About AKWatches.pk">
+        </div>
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>
+                A CASIO STORE was founded with a passion for authentic timepieces. Over the years,
+                we have grown into one of Pakistan’s most trusted online destinations for genuine
+                branded watches.
+            </p>
+            <p>
+                From rugged outdoor watches to elegant dress pieces, our collection offers
+                something for every style and every moment that matters.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="section faq-section">
+    <div class="container">
+        <header class="section-header centered">
+            <h2>A CASIO STORE Pakistan</h2>
+            <p>
+                Answers to the most common questions about ordering watches online from AKWatches.pk.
+            </p>
+        </header>
+
+        <div class="faq-list">
+            <div class="faq-item active">
+                <button class="faq-question">
+                    Why is A CASIO STORE the best online store for original watches in Pakistan?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>
+                        We work only with authorized distributors and provide warranty, secure delivery
+                        and dedicated customer support to ensure a safe and smooth buying experience.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Can I order via Cash on Delivery (COD)?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>
+                        Yes, COD is available in most cities across Pakistan. You can also pay via bank transfer.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    How long does delivery take?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>
+                        Standard delivery time is 3–7 working days depending on your city and product availability.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

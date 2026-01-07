@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block title %}Warranty Policy - AKWatches.pk{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/warranty.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="section warranty-section">
+    <div class="container warranty-container">
+
+        <h1 class="warranty-title">Warranty Policy</h1>
+        <p class="warranty-subtitle">A Casio Store – Genuine Products Guaranteed</p>
+
+        <p class="warranty-intro">
+            At <strong>A Casio Store</strong>, we sell only genuine Casio products and stand firmly behind their quality and authenticity.
+        </p>
+
+        <h2>🛡️ Warranty Coverage</h2>
+        <p>
+            All Casio watches come with a <strong>12-month limited warranty</strong> from the date of purchase,
+            covering manufacturing defects under normal use.
+        </p>
+
+        <div class="warranty-box">
+            <strong>Covered Under Warranty:</strong>
+            <ul>
+                <li>Manufacturing defects</li>
+                <li>Material or workmanship faults</li>
+                <li>Battery issues</li>
+                <li>Mechanical issues</li>
+            </ul>
+
+            <strong>Not Covered Under Warranty:</strong>
+            <ul>
+                <li>Accidental damage, misuse, or abuse</li>
+                <li>Normal wear and tear</li>
+                <li>Unauthorized repairs or modifications</li>
+                <li>Improper use or failure to follow instructions</li>
+            </ul>
+        </div>
+
+        <h2>🌍 International Warranty</h2>
+        <p>
+            International Casio warranties are honored for watches purchased from
+            <strong>authorized Casio centers</strong> only.
+        </p>
+        <ul>
+            <li>Coverage limited to battery and mechanical issues</li>
+            <li>Stamped warranty slip with purchase date is mandatory</li>
+        </ul>
+
+        <h2>🔧 Warranty Claim Process</h2>
+        <ol>
+            <li>Contact our support team</li>
+            <li>Ship the watch with the original stamped warranty slip</li>
+            <li>Inspection by our technical team</li>
+            <li>Repair or replacement if eligible</li>
+        </ol>
+
+        <div class="warranty-contact">
+            <i class="fas fa-phone"></i>
+            Warranty Support: <strong>+92 346 2738961</strong>
+        </div>
+
+        <h2>📄 Important Terms</h2>
+        <ul>
+            <li>Warranty is non-transferable</li>
+            <li>Valid for the original purchaser only</li>
+            <li>Repair or replacement only</li>
+            <li>Replacement does not reset warranty period</li>
+        </ul>
+
+        <h2>❓ Warranty FAQs</h2>
+        <div class="warranty-faq">
+            <p><strong>Q:</strong> How long is the warranty valid?<br>
+               <strong>A:</strong> 12 months from purchase date.</p>
+
+            <p><strong>Q:</strong> Is the battery covered?<br>
+               <strong>A:</strong> Yes, during the warranty period.</p>
+
+            <p><strong>Q:</strong> Do you accept international claims?<br>
+               <strong>A:</strong> Yes, with a stamped warranty slip.</p>
+
+            <p><strong>Q:</strong> Does replacement restart warranty?<br>
+               <strong>A:</strong> No.</p>
+        </div>
+
+        <div class="warranty-disclaimer">
+            <strong>Authenticity & Disclaimer</strong><br><br>
+            A Casio Store sells 100% genuine Casio products only.
+            Products containing non-Casio parts are not covered.
+            All trademarks belong to Casio Watch Company, Inc.
+        </div>
+
+    </div>
+</section>
+{% endblock %}

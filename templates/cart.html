@@ -1,0 +1,156 @@
+{% extends "base.html" %}
+{% block title %}Shopping Cart - AKWatches.pk{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/cart.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <h1 class="page-title">Your Shopping Cart</h1>
+        
+        {% if cart_items %}
+        <div class="cart-container">
+            <div class="cart-items">
+                {% for item in cart_items %}
+                <div class="cart-item" data-slug="{{ item.slug }}">
+                    <div class="cart-item-image">
+                        <img src="{{ url_for('static', filename=item.product.images[0]) }}" 
+                             alt="{{ item.product.name }}">
+                    </div>
+                    
+                    <div class="cart-item-details">
+                        <h3>{{ item.product.name }}</h3>
+                        <p class="cart-item-price">
+                            {% if item.product.sale.on_sale %}
+                                <span class="old-price">{{ item.product.currency }}{{ "{:,.0f}".format(item.product.price) }}</span>
+                                <span class="new-price">{{ item.product.currency }}{{ "{:,.0f}".format(item.price) }}</span>
+                            {% else %}
+                                {{ item.product.currency }}{{ "{:,.0f}".format(item.price) }}
+                            {% endif %}
+                        </p>
+                    </div>
+                    
+                    <div class="cart-item-quantity">
+                        <div class="quantity-selector-small">
+                            <button type="button" class="qty-btn minus" data-slug="{{ item.slug }}">−</button>
+                            <input type="number" value="{{ item.quantity }}" min="1" 
+                                   class="qty-input" data-slug="{{ item.slug }}">
+                            <button type="button" class="qty-btn plus" data-slug="{{ item.slug }}">+</button>
+                        </div>
+                        <button class="btn-remove" data-slug="{{ item.slug }}">
+                            <i class="fas fa-trash"></i> Remove
+                        </button>
+                    </div>
+                    
+                    <div class="cart-item-total">
+                        <strong>{{ item.product.currency }}{{ "{:,.0f}".format(item.total) }}</strong>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            
+            <div class="cart-summary">
+                <h3>Order Summary</h3>
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span>{{ cart_items[0].product.currency if cart_items else 'Rs' }}{{ "{:,.0f}".format(total) }}</span>
+                </div>
+                <div class="summary-row">
+                    <span>Shipping</span>
+                    <span>Free</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Total</span>
+                    <span>{{ cart_items[0].product.currency if cart_items else 'Rs' }}{{ "{:,.0f}".format(total) }}</span>
+                </div>
+                
+                <a href="{{ url_for('checkout') }}" class="btn btn-primary btn-block">
+                    Proceed to Checkout
+                </a>
+                
+                <a href="{{ url_for('home') }}" class="btn btn-outline btn-block">
+                    Continue Shopping
+                </a>
+            </div>
+        </div>
+        {% else %}
+        <div class="empty-cart">
+            <i class="fas fa-shopping-cart fa-3x"></i>
+            <h2>Your cart is empty</h2>
+            <p>Looks like you haven't added any watches to your cart yet.</p>
+            <a href="{{ url_for('home') }}" class="btn btn-primary">Browse Watches</a>
+        </div>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Quantity update
+    document.querySelectorAll('.qty-btn').forEach(button => {
+        button.addEventListener('click', function() {
+            const slug = this.dataset.slug;
+            const input = document.querySelector(`.qty-input[data-slug="${slug}"]`);
+            let quantity = parseInt(input.value);
+            
+            if (this.classList.contains('minus') && quantity > 1) {
+                quantity--;
+            } else if (this.classList.contains('plus')) {
+                quantity++;
+            }
+            
+            updateCartItem(slug, quantity);
+        });
+    });
+    
+    // Quantity input change
+    document.querySelectorAll('.qty-input').forEach(input => {
+        input.addEventListener('change', function() {
+            const slug = this.dataset.slug;
+            const quantity = parseInt(this.value) || 1;
+            updateCartItem(slug, quantity);
+        });
+    });
+    
+    // Remove item
+    document.querySelectorAll('.btn-remove').forEach(button => {
+        button.addEventListener('click', function() {
+            const slug = this.dataset.slug;
+            removeCartItem(slug);
+        });
+    });
+    
+    function updateCartItem(slug, quantity) {
+        fetch(`/update-cart/${slug}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: `quantity=${quantity}`
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                location.reload();
+            }
+        });
+    }
+    
+    function removeCartItem(slug) {
+        fetch(`/remove-from-cart/${slug}`, {
+            method: 'POST'
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                location.reload();
+            }
+        });
+    }
+});
+</script>
+{% endblock %}

@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% block title %}Checkout - AKWatches.pk{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/checkout.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <h1 class="page-title">Checkout</h1>
+        
+        <div class="checkout-container">
+            <div class="checkout-form-container">
+                <h2>Shipping Information</h2>
+                <form method="POST" action="{{ url_for('checkout') }}" class="checkout-form">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required 
+                               placeholder="Enter your full name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required 
+                               placeholder="your.email@example.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone1">Primary Phone Number *</label>
+                        <input type="tel" id="phone1" name="phone1" required 
+                               placeholder="03XX-XXXXXXX">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone2">Secondary Phone Number (Optional)</label>
+                        <input type="tel" id="phone2" name="phone2" 
+                               placeholder="03XX-XXXXXXX">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">Full Address *</label>
+                        <textarea id="address" name="address" required rows="4" 
+                                  placeholder="House #, Street, City, Province"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="notes">Order Notes (Optional)</label>
+                        <textarea id="notes" name="notes" rows="3" 
+                                  placeholder="Any special instructions..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <p class="payment-method">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <strong>Payment Method:</strong> Cash on Delivery
+                        </p>
+                        <p class="note">Our representative will contact you for confirmation before delivery.</p>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-block">
+                        Place Order & Confirm Purchase
+                    </button>
+                </form>
+            </div>
+            
+            <div class="order-summary">
+                <h3>Order Summary</h3>
+                <div class="order-items">
+                    {% for slug, item in session.cart.items() %}
+                    {% set product = get_product(slug) %}
+                    {% if product %}
+                    <div class="order-item">
+                        <span>{{ product.name }} × {{ item.quantity }}</span>
+                        {% set price = product.price %}
+                        {% if product.sale.on_sale %}
+                            {% set discount = product.sale.discount_percent %}
+                            {% set price = price * (1 - discount/100) %}
+                        {% endif %}
+                        <span>{{ product.currency }}{{ "{:,.0f}".format(price * item.quantity) }}</span>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span>Rs{{ "{:,.0f}".format(total) }}</span>
+                </div>
+                <div class="summary-row">
+                    <span>Shipping</span>
+                    <span>Free</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Total Amount</span>
+                    <span>Rs{{ "{:,.0f}".format(total) }}</span>
+                </div>
+                
+                <div class="secure-checkout">
+                    <i class="fas fa-lock"></i>
+                    <span>Secure Checkout</span>
+                </div>
+                
+                <a href="{{ url_for('view_cart') }}" class="btn btn-outline btn-block">
+                    ← Back to Cart
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

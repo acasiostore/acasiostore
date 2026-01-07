@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}On Sale - AKWatches.pk{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/category.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="section category-hero">
+    <div class="container">
+        <h1>On Sale</h1>
+        <p>Grab the best deals on Casio watches — limited time offers!</p>
+    </div>
+</section>
+
+<section class="section category-products">
+    <div class="container">
+        {% if products %}
+        <div class="product-grid">
+            {% for product in products %}
+            <article class="product-card">
+                <a href="{{ url_for('product_details', slug=product.slug) }}">
+                    <div class="product-image">
+                        <img src="{{ url_for('static', filename=product.images[0]) }}" alt="{{ product.name }}">
+                        <span class="sale-badge">SALE</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">{{ product.name }}</h3>
+                        <p class="product-price">
+                            <span class="original-price">{{ product.currency }}{{ "{:,.0f}".format(product.price) }}</span>
+                            <span class="discounted-price">{{ product.currency }}{{ "{:,.0f}".format(product.sale.discounted_price) }}</span>
+                        </p>
+                        <div class="product-buttons">
+                            <button class="btn-cart">Add To Cart</button>
+                            <button class="btn-details">View Details</button>
+                        </div>
+                    </div>
+                </a>
+            </article>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p>No products currently on sale.</p>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}

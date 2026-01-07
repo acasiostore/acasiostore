@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+
+<section class="container py-5">
+  <h2 class="mb-4 text-center text-uppercase">{{ title }}</h2>
+  {% if description %}
+  <p class="text-center mb-5 text-muted">{{ description }}</p>
+  {% endif %}
+
+  <div class="grid">
+    {% for product in products %}
+    <div class="product-card">
+      <img src="{{ url_for('static', filename=product.images[0]) }}" alt="{{ product.name }}">
+      <h3>{{ product.name }}</h3>
+      <p class="price">{{ product.currency }} {{ "{:,}".format(product.price) }}</p>
+      <p class="text-muted">{{ product.short_description }}</p>
+      <a href="{{ url_for('product_details', slug=product.slug) }}" class="btn btn-dark">View Details</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% endblock %}

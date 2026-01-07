@@ -1,0 +1,99 @@
+[
+    {
+        "slug": "men-watches",
+        "title": "Men Watches",
+        "description": "Premium selection of men's watches for all styles and occasions.",
+        "image": "images/categories/men.jpg",
+        "products": [
+            {
+                "slug": "m-001",
+                "name": "G-Shock GA-2100",
+                "price": 21500,
+                "currency": "Rs.",
+                "short_description": "Durable analog-digital hybrid designed for rugged lifestyles.",
+                "images": ["images/products/gshock-ga2100.jpg"]
+            },
+            {
+                "slug": "m-002",
+                "name": "Edifice EFV-540D",
+                "price": 18900,
+                "currency": "Rs.",
+                "short_description": "Sporty chronograph with metal strap and black dial.",
+                "images": ["images/products/edifice-efv540d.jpg"]
+            }
+        ]
+    },
+
+    {
+        "slug": "women-watches",
+        "title": "Women Watches",
+        "description": "Elegant, modern, and timeless watches designed for women.",
+        "image": "images/categories/women.jpg",
+        "products": [
+            {
+                "slug": "w-001",
+                "name": "Sheen SHE-4054",
+                "price": 17900,
+                "currency": "Rs.",
+                "short_description": "A minimal rose-gold design for everyday elegance.",
+                "images": ["images/products/sheen-4054.jpg"]
+            },
+            {
+                "slug": "w-002",
+                "name": "LTP-V007L",
+                "price": 10800,
+                "currency": "Rs.",
+                "short_description": "Classic analog watch with genuine leather strap.",
+                "images": ["images/products/ltp-v007l.jpg"]
+            }
+        ]
+    },
+    {
+        "slug": "classic-watches",
+        "title": "Classic Watches",
+        "description": "Timeless analog watches crafted with precision and style.",
+        "image": "images/categories/classic.jpg",
+        "products": [
+            {
+                "slug": "c-001",
+                "name": "MTP-V004GL",
+                "price": 12500,
+                "currency": "Rs.",
+                "short_description": "Gold-tone dial with a vintage touch.",
+                "images": ["images/products/mtp-v004gl.jpg"]
+            }
+        ]
+    },
+    {
+        "slug": "gift-for-him",
+        "title": "Gift Watches For Him",
+        "description": "Perfect timepieces for gifting the men in your life.",
+        "image": "images/categories/gift-him.jpg",
+        "products": [
+            {
+                "slug": "gfh-001",
+                "name": "Casio Enticer",
+                "price": 15800,
+                "currency": "Rs.",
+                "short_description": "Stainless steel case with blue dial — perfect for gifting.",
+                "images": ["images/products/casio-enticer.jpg"]
+            }
+        ]
+    },
+    {
+        "slug": "gift-for-her",
+        "title": "Gift Watches For Her",
+        "description": "Charming watches that make the perfect gift for her.",
+        "image": "images/categories/gift-her.jpg",
+        "products": [
+            {
+                "slug": "gfh-002",
+                "name": "Baby-G Pink Edition",
+                "price": 19900,
+                "currency": "Rs.",
+                "short_description": "Vibrant and colorful design built for her active lifestyle.",
+                "images": ["images/products/baby-g-pink.jpg"]
+            }
+        ]
+    }
+]

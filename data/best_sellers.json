@@ -1,0 +1,202 @@
+ [
+
+ {
+  "slug": "f-91w-1dg",
+  "name": "Casio F-91W-1DG",
+  "price": 4950,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Classic Digital Watch with Resin Band",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/F-91W-1DG_1.jpg",
+    "images/products/F-91W-1DG_2.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz (Digital)",
+    "case_material": "Resin",
+    "band_material": "Resin Band",
+    "water_resistance": "Water Resistant (splash / daily wear)",
+    "case_size": "33 x 38 x 8.5 mm",
+    "weight": "21 g",
+    "battery": "CR2016 (7 years)",
+    "features": "Daily Alarm, Hourly Time Signal, Stopwatch, Auto Calendar, LED Light, 12/24-hour format"
+  },
+
+  "description_paragraphs": [
+    "Iconic digital watch from Casio combining simplicity, reliability, and lightweight comfort.",
+    "Perfect for everyday use, with practical functions like alarm, stopwatch, and long-lasting battery."
+  ]
+},
+{
+  "slug": "ae-1000w-3avdf",
+  "name": "Casio AE-1000W-3AVDF",
+  "price": 11250,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "Multi-band World Time Digital Watch with Resin Band",
+  "badge": "Sports Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/AE-1000W-3AVDF_1.jpg",
+    "images/products/AE-1000W-3AVDF_2.jpg",
+    "images/products/AE-1000W-3AVDF_3.jpg",
+    "images/products/AE-1000W-3AVDF_4.jpg",
+    "images/products/AE-1000W-3AVDF_5.jpg",
+      "images/products/AE-1000W-3AVDF_6.jpg",
+      "images/products/AE-1000W-3AVDF_7.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz (Digital)",
+    "case_material": "Resin",
+    "band_material": "Resin Band",
+    "water_resistance": "100 meters / 10 bar",
+    "case_size": "48.1 x 42.6 x 13.4 mm",
+    "weight": "50 g",
+    "battery": "CR2025 (10 years)",
+    "features": "World Time (48 cities), 1/100-second Stopwatch, 5 Alarms, Countdown Timer, Full Auto Calendar, LED Light, 12/24-hour format"
+  },
+
+  "description_paragraphs": [
+    "Rugged and functional digital watch from Casio with World Time feature, perfect for travelers and sports enthusiasts.",
+    "Resin band and water resistance make it suitable for everyday adventures, while long battery life ensures reliability."
+  ]
+},{
+    "slug": "ga-2100-1adr",
+    "name": "Casio GA-2100-1ADR",
+    "price": 25500,
+    "currency": "Rs.",
+    "category": "g-shock",
+    "short_description": "Analog-digital Carbon Core Guard G-Shock watch with resin band",
+    "badge": "G-Shock Carbon",
+    "sold_recent": null,
+    "sale": {
+      "on_sale": false,
+      "discount_percent": 0
+    },
+    "images": [
+      "images/products/GA-2100-1ADR_6.jpg",
+      "images/products/GA-2100-1ADR_2.jpg",
+      "images/products/GA-2100-1ADR_3.jpg",
+      "images/products/GA-2100-1ADR_4.jpg",
+      "images/products/GA-2100-1ADR_5.jpg",
+      "images/products/GA-2100-1ADR_1.jpg",
+      "images/products/GA-2100-1ADR_7.jpg",
+      "images/products/GA-2100-1ADR_8.jpg"
+    ],
+    "specs": {
+      "display": "Analog + Digital",
+      "movement": "Quartz (Analog-Digital)",
+      "case_material": "Carbon / Resin (Carbon Core Guard)",
+      "band_material": "Resin Band",
+      "water_resistance": "200 m / 20 bar",
+      "case_size": "48.5 x 45.4 x 11.8 mm",
+      "weight": "51 g",
+      "battery": "SR726W x 2 (approx. 3 years)",
+      "features": "Shock resistant; Mineral glass; Double LED light; World time (31 time zones, 48 cities + UTC); 1/100-second stopwatch; Countdown timer; 5 daily alarms; Hourly time signal; Full auto-calendar; 12/24-hour format; Hand-shift feature"
+    },
+    "description_paragraphs": [
+      "The Casio GA-2100-1ADR is a tough and versatile G-Shock watch featuring a Carbon Core Guard structure and 200 m water resistance, designed for rugged use and everyday wear.",
+      "Its analog-digital display, world time, stopwatch, countdown timer and long battery life make the GA-2100-1ADR an ideal choice for sports, travel and daily lifestyle use."
+    ]
+  },
+   {
+  "slug": "a159w-n1df",
+  "name": "Casio A159W-N1DF",
+  "price": 6159,
+  "currency": "Rs.",
+  "category": "analog-watches",
+  "short_description": "Unisex vintage stainless steel digital bracelet watch",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": true,
+    "discount_percent": 28
+  },
+
+  "images": [
+    "images/products/A159W-N1DF_1.jpg",
+    "images/products/A159W-N1DF_2.jpg",
+    "images/products/A159W-N1DF_3.jpg",
+    "images/products/A159W-N1DF_4.jpg",
+    "images/products/A159W-N1DF_5.jpg",
+    "images/products/A159W-N1DF_6.jpg"
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz (Digital)",
+    "case_material": "Resin / Chrome-plated",
+    "band_material": "Stainless Steel Bracelet",
+    "water_resistance": "Water resistant (splash / daily wear)",
+    "case_size": "36.8 x 33.2 x 8.2 mm",
+    "weight": "44 g",
+    "battery": "CR2016 (approx. 7 years)",
+    "features": "Daily alarm, Hourly time signal, 1/100-second stopwatch, Auto-calendar, LED light, 12/24-hour format"
+  },
+
+  "description_paragraphs": [
+    "The Casio A159W-N1DF is a classic vintage digital watch that blends retro styling with reliable everyday functionality. Its compact rectangular case and clear digital display make it instantly recognizable and timeless.",
+    "The stainless steel bracelet and splash-resistant construction make it suitable for daily wear. With practical features such as an alarm, stopwatch, auto-calendar and long battery life, this watch delivers simplicity, durability and iconic Casio design."
+  ]
+},{
+  "slug": "ae-1200wh-1avdf",
+  "name": "Casio AE-1200WH-1AVDF",
+  "price": 12500,
+  "currency": "Rs.",
+  "category": "classic-watches",
+  "short_description": "World Time Digital Watch with Resin Band",
+  "badge": "Classic Digital",
+  "sold_recent": null,
+
+  "sale": {
+    "on_sale": false,
+    "discount_percent": 0
+  },
+
+  "images": [
+    "images/products/AE-1200WH-1AVDF_1.jpg",
+    "images/products/AE-1200WH-1AVDF_2.jpg"
+
+  ],
+
+  "specs": {
+    "display": "Digital",
+    "movement": "Quartz (Digital)",
+    "case_material": "Resin",
+    "band_material": "Resin Band",
+    "water_resistance": "100 meters / 10 bar",
+    "case_size": "45.4 x 42.1 x 12.5 mm",
+    "weight": "57 g",
+    "battery": "CR2025 (10 years)",
+    "features": "World Time (48 cities), 1/100-second Stopwatch, 5 Alarms, Countdown Timer, Full Auto Calendar, LED Light, 12/24-hour format"
+  },
+
+  "description_paragraphs": [
+    "Reliable and multifunctional digital watch with World Time for frequent travelers.",
+    "Resin case and band make it lightweight and durable, while 10-year battery ensures long-lasting use."
+  ]
+}
+
+
+
+
+   ]
